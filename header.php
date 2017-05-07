@@ -16,6 +16,8 @@
 <body>
   <main>
     <!-- CABECARIO -->
+
+    <div class="#">
     <header class="cabecario">
       <div id="menuHeader" class="flex">
         <aside class="logosi" style="color: #ddd">
@@ -24,7 +26,14 @@
         </aside>
         <nav  class="menuh">
           <ul class="mtop">
-            <li><a href="index.php"><i class="fa fa-bars"></i>Home</a></li>
+            <li><a class="toggle"href="#"><i class="fa fa-bars"></i>Home</a>
+              <ul class="menu-lateral">
+                <li><a href="#">materiamenu</a></li>
+                <li><a href="#">materiamenu</a></li>
+                <li><a href="#">materiamenu</a></li>
+                <li><a href="#">materiamenu</a></li>
+              </ul>
+            </li>
             <li><a href="java.php"><i class="fa fa-"></i>Linguagem Algoritimica<i class="fa fa-caret-down"></i></a>
               <ul class="sub-menu">
                 <li><a href="java.php#tema-01">Conceito de Algoritmo</a></li>

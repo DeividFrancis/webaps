@@ -16,6 +16,7 @@
   position: fixed
   box-shadow: 0 -3px 10px #000
   padding-top: 15px
+  top: 0
   +breakpoint($celular)
     padding-top: 0
 .home-menuh
@@ -24,7 +25,21 @@
 
     // &:first-child
       visibility: visible
-
+.menu-lateral
+  width: 200px
+  height: 100%
+  position: fixed
+  background-color: #ddd
+  left: -200px
+  a
+    color: #333
+  &.ativo
+    transition: .2s
+    left: 0
+// .layout
+  &.ativo
+    transition: .2s
+    padding-left: 200px
 .home-menuv
   margin: 40px
   padding: 5px

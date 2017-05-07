@@ -57,3 +57,11 @@ $(document).ready(function() {
 //         $('.sub-menu').css({'display':'block'});
 //     });
 // });
+// ===============================================================================
+// TESTE MENU LATERAL POHAA
+$(document).ready(function() {
+  $('.toggle').click(function() {
+    $('.layout').toggleClass('ativo');
+    $('.menu-lateral').toggleClass('ativo');
+  });
+});

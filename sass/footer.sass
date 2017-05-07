@@ -4,6 +4,8 @@
 
 .mgfooter
   padding: 100px 45px
+  +breakpoint ($celular)
+    padding: 50px 10px
 .rodape-botton
   background-color: #222
   color: #ddd
@@ -27,6 +29,9 @@
     padding: 5px 30px
     font-style: normal
     font-size: 14px
+    +breakpoint ($celular)
+      flex-direction: column
+      text-align: center
     p
       font-weight: 600
       text-transform: uppercase
@@ -35,3 +40,6 @@
 
     .fa
       padding-right: 15px
+      +breakpoint ($celular)
+        padding-right: 0px
+        padding: 10px 0

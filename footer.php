@@ -64,5 +64,6 @@
   </aside>
   <div class="copyright"><small>Copyright © 2017 </small></div>
 </footer>
+</div>
 </body>
 </html>
