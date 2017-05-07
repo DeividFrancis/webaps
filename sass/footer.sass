@@ -1,6 +1,9 @@
+$celular: 800px
+$tablet: 600px
+$desktop: 800px
+
 .mgfooter
   padding: 100px 45px
-  // background-color: #444
 .rodape-botton
   background-color: #222
   color: #ddd
@@ -11,7 +14,10 @@
     border: none
     display: flex
     justify-content: flex-end
+    @media screen and (max-width: 600px)
+      flex-direction: column
   .copyright
+    padding: 20px 0
     background-color: #111
     width: 100%
     text-align: center

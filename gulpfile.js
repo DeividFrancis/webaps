@@ -5,8 +5,8 @@
 <('PLUGINS')> $npm install --save -dev <('nome-do-plugin')
 */
 var gulp = require('gulp');
-var sass = require('gulp-sass')
-var watch = require('gulp-watch')
+var sass = require('gulp-sass');
+var watch = require('gulp-watch');
 
 
 //MODO DEFAUT
@@ -24,8 +24,8 @@ var watch = require('gulp-watch')
 */
 gulp.task('sass', function() {
   return gulp.src('sass/**/*.sass')
-  //.pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
-  .pipe(sass())
+  .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+  // .pipe(sass())
   .pipe(gulp.dest('css')); // O MODO (PASTA</**/*.>TIPO DE ARQUIVO) E PARA PEGAR TODAS AS PASTA E SUB-PASTAS
 });
 
