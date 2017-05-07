@@ -22,7 +22,7 @@ body
   padding-right: 5px
 .materia
   border: none !important
-.box
+// .box
   display: flex
   border-right: 1px solid #ddd
   padding-top: 10px
@@ -31,9 +31,10 @@ body
   max-width: 100%
 .mtop
   margin-bottom: 30vh
-.td-conteudo
+// .td-conteudo
   // position: relative
   // top: -120px
+
   border: 1px solid #ccc
   width: 100%
   background-color: #fff
@@ -100,10 +101,14 @@ body
       background-color: rgba(0, 0, 0, 0.4)
 .materia
   text-align: center
+h1.materia
+  margin: auto 0
+  +breakpoint ($celular)
+    font-size: 35px
 .texto
   font-size: 28px !important
 @import "header.sass"
 @import "nav-menu.sass"
-@import "conteudo.sass"
+@import "conteudo"
 @import "footer.sass"
 // @import "node-modules/breakpoint-sass/stylesheets/breakpoint.scss"
