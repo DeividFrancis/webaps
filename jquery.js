@@ -6,10 +6,10 @@ $(function(){
   $(window).scroll(function () {
     if ($(this).scrollTop() > 600) {
       nav.addClass("menu-fixo");
-      $(".flex, .mtop a, .sub-menu").addClass('light');
+      $(".flex, .mtop a, .sub-menu, .menu-mobile").addClass('light');
       // $('.sub-menu').css({'background-color':'#222'})
       // $('.menu-fixo').slideDown(5000);
-      $('.logosi').css('color', '#888');
+      $('.logosi, .toggle, .menu-mobile a').css('color', '#888');
       // $('.logosi').document.wi
       // $('.logosi').removeClass('si')
 
@@ -18,8 +18,8 @@ $(function(){
       nav.removeClass("menu-fixo");
       // $('.logosi').addClass('si')
       // $('.logosi').removeClass('tm')
-      $(".flex, .mtop a, .sub-menu").removeClass('light');
-      $('.logosi').css('color', '#ddd');
+      $(".flex, .mtop a, .sub-menu, .menu-mobile").removeClass('light');
+      $('.logosi, .toggle, .menu-mobile a').css('color', '#ddd');
     }
   });
 });
@@ -28,40 +28,17 @@ $(function(){
 $(document).ready(function() {
   var over = $('.mtop');
   over.mouseover(function() {
-    // visibility: hidden
-    $(".inicio").css('visibility', 'hidden');
-    // $('.sub-menu').slideUp(500,stop(true, true));
+    $(".inicio").addClass('none');
   });
   over.mouseout(function() {
-    $('.inicio').css('visibility', 'visible');
-    // $('.sub-menu').slideDown(500,stop());
-    // $(".inicio").css('transition', '1s');
+    $('.inicio').removeClass('none');
   });
 });
 
-// $(document).ready(function() {
-//     $( '.mtop li' ).hover(
-//         function(){
-//             $(this).children('.sub-menu').slideDown(200);
-//         },
-//         function(){
-//             $(this).children('.sub-menu').slideUp(200);
-//         }
-//     );
-// });
-
-
-//     $(document).ready(function(){
-//       var drop = $(".fa-caret-down");
-//       drop.click(function(){
-//         $('.sub-menu').css({'display':'block'});
-//     });
-// });
-// ===============================================================================
-// TESTE MENU LATERAL POHAA
 $(document).ready(function() {
-  $('.toggle').click(function() {
-    $('.layout').toggleClass('ativo');
-    $('.menu-lateral').toggleClass('ativo');
+  $('.toggle, .menu-mobile a, .box').click(function() {
+    $('.menu-mobile').toggleClass('ativo');
+    $('.inicio').toggleClass('none');
   });
+  // $('.menu.')
 });

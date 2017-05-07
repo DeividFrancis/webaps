@@ -20,62 +20,36 @@
     <div class="#">
     <header class="cabecario">
       <div id="menuHeader" class="flex">
+        <nav class="mobile">
+          <a href="javascript:;" class="toggle"><i class="fa fa-bars"></i></a>
+          <div class="menu-mobile">
+            <ul class="temas">
+              <li><a href="#tema-1"><?php echo $temas[1] ?></a></li>
+              <li><a href="#tema-2"><?php echo $temas[2] ?></a></li>
+              <li><a href="#tema-3"><?php echo $temas[3] ?></a></li>
+              <li><a href="#tema-4"><?php echo $temas[4] ?></a></li>
+              <li><a href="#tema-5"><?php echo $temas[5] ?></a></li>
+            </ul>
+            <ul class="disciplinas">
+              <li><a href="index.php"><i class="fa fa-home"></i>Inicio</a></li>
+              <li><a href="java.php"><i class="fa fa-code"></i>Linguagem Algoritimica</a></li>
+              <li><a href="matematica.php"><i class="fa fa-calculator"></i>Matemática</a></li>
+              <li><a href="turma.php"><i class="fa fa-book"></i>Gerência de Projetos</a></li>
+              <li><a href="html-css.php"><i class="fa fa-html5"></i>Hip e Estilos</a></li>
+            </ul>
+          </div>
+        </nav>
         <aside class="logosi" style="color: #ddd">
           <span class="si">&lt;/Sistemas&gt;</span>
-          <!-- <span class="tm"><?php echo $materia ?></span> -->
         </aside>
-        <nav  class="menuh">
+        <!-- MENU normal -->
+        <!-- ============================================================ -->
+        <nav class="menuh">
           <ul class="mtop">
-            <li><a class="toggle"href="#"><i class="fa fa-bars"></i>Home</a>
-              <ul class="menu-lateral">
-                <li><a href="#">materiamenu</a></li>
-                <li><a href="#">materiamenu</a></li>
-                <li><a href="#">materiamenu</a></li>
-                <li><a href="#">materiamenu</a></li>
-              </ul>
-            </li>
-            <li><a href="java.php"><i class="fa fa-"></i>Linguagem Algoritimica<i class="fa fa-caret-down"></i></a>
-              <ul class="sub-menu">
-                <li><a href="java.php#tema-01">Conceito de Algoritmo</a></li>
-                <li><a href="java.php#tema-02">Introdução à Linguagem Java</a></li>
-                <li><a href="java.php#tema-03">Operadores</a></li>
-                <li><a href="java.php#tema-04">Criando um Programa</a></li>
-                <li><a href="java.php#tema-05">Exemplo 01</a></li>
-                <li><a href="java.php#tema-06">Exemplo 02</a></li>
-
-              </ul>
-            </li>
-            <li><a href="matematica.php"><i class="fa fa-"></i>Matemática<i id="flip" class="fa fa-caret-down"></i></a>
-              <ul class="sub-menu">
-                <li><a href="matematica.php#tema-01">tituloDaMateria</a></li>
-                <li><a href="matematica.php#tema-02">tituloDaMateria</a></li>
-                <li><a href="matematica.php#tema-03">tituloDaMateria</a></li>
-                <li><a href="matematica.php#tema-04">Lógica Booleana</a></li>
-                <li><a href="matematica.php#tema-05">tituloDaMateria</a></li>
-              </ul>
-            </li>
-            <li><a href="turma.php"><i class="fa fa-"></i>Gerência de Projetos<i class="fa fa-caret-down"></i></a>
-              <ul class="sub-menu">
-                <li><a href="turma.php#tema-01">tituloDaMateria</a></li>
-                <li><a href="turma.php#tema-02">tituloDaMateria</a></li>
-                <li><a href="turma.php#tema-03">tituloDaMateria</a></li>
-                <li><a href="turma.php#tema-04">tituloDaMateria</a></li>
-                <li><a href="turma.php#tema-05">tituloDaMateria</a></li>
-              </ul>
-            </li>
-            <li><a href="html-css.php"><i class="fa fa-"></i>Hip e Estilos<i class="fa fa-caret-down"></i></a>
-              <ul class="sub-menu">
-                <li><a href="html-css.php#tema-01"> <?php $html = 'A linguagem HTML'; echo $html; ?> </a></li>
-                <li><a href="html-css.php#tema-02">Ambientes de progamação HTML</a></li>
-                <li><a href="html-css.php#tema-03">Ferramenta de edição HTML</a></li>
-                <li><a href="html-css.php#tema-04">Conceitos básicos de Web-Designer</a></li>
-                <li><a href="html-css.php#tema-05">introção ao CSS</a></li>
-                <li><a href="html-css.php#tema-06">Cores e unidades</a></li>
-                <li><a href="html-css.php#tema-07">Propriedades CSS</a></li>
-              </ul>
-            </li>
+            <?php include ('menu-list.php'); ?>
           </ul>
         </nav>
+        <!-- =============================================================== -->
         <form class="busca" action="index.html" method="post">
           <button type="button" name="button"><i class="fa fa-search"></i></button>
           <input type="text" name="busca" value="" placeholder="pesquisar">

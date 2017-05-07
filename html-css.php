@@ -4,8 +4,8 @@ $intro = 'Conteudo apresentado à disciplina Hipertexto e Estilos, do 1º perío
 $imagem = 'url("imagens/html-css.png")';
 $tutor = 'ALBERTO AYRES BENICIO';
 
-// $tema01 = 'A linguagem algoritca'
-
+include 'info.php';
+$temas = $html;
 include 'header.php';
 // ================================================================================
 // TODO O CONTEUDO DEVERA SER ESCRITO AQUI

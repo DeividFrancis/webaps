@@ -15,7 +15,7 @@
       <div class="autor">prof:<a href="#"><?php echo $tutor ?></a></div>
 
     </header>
-    <h3 class="titulo" id="tema-01">Conceito de linguagem algoritmica</h3>
+    <h3 class="titulo" id="tema-1"><?php echo $java[1] ?></h3>
 
     <p class="texto">Um algoritmo é uma sequência de passos que resolve algum problema ou alcança algum objetivo, como a sequência de passos
      para resolver o problema de descobrir a máxima altura. É importante salientar que um algoritmo simplesmente diz o que
@@ -32,8 +32,8 @@
         é a maneira de “conversarmos” com um computador. A linguagem que utilizaremos aqui é a Java. O Java é uma linguagem de programação orientada a
          objetos que atualmente faz parte do núcleo da Plataforma Java.
     </p>
-    <h3 class="titulo" id="tema-02">
-      Introdução à Linguagem Algoritmica
+    <h3 class="titulo" id="tema-2">
+      <?php echo $java[2] ?>
     </h3>
     <p class="texto">
       Queremos introduzir a linguagem Java básica (sem uso de orientação a objeto) através de alguns exemplos simples
@@ -46,8 +46,8 @@
       <li>Muito usada em programação em rede</li>
     </ul>
 
-    <h3 class="titulo" id="tema-03">Operadores</h3>
-    <h4 class="sub-titulo">Operadores matemáticos</h4>
+    <h3 class="titulo" id="tema-3"><?php echo $java[3] ?></h3>
+    <h4 class="sub-titulo"><?php echo $java[3] ?></h4>
     <ul class="texto">
       <li>+ (soma)</li>
       <li>- (subtração)</li>
@@ -79,7 +79,7 @@
       <li>! (NOT)</li>
     </ul>
 
-    <h3 class="titulo" id="tema-04">Criando um Programa</h3>
+    <h3 class="titulo" id="tema-4"><?php echo $java[4] ?></h3>
 
     <p class="texto">
       <code>

@@ -1,0 +1,50 @@
+@import "mixins"
+@import "../bower_components/breakpoint-sass/stylesheets/breakpoint"
+.mobile
+  padding: 10px
+  .toggle
+      display: none
+      color: $cinza-claro
+      font-size: 20px
+      .fa
+        padding: 0
+      +breakpoint ($celular)
+        display: block
+.ativo
+  left: 0px !important
+  transition: .2s
+
+.menu-mobile
+  border-top: 1px solid $cinza-claro
+  left: -2380px
+  display: none
+  min-width: 200px
+  position: absolute
+  height: 100vh
+  // background-color: $cinza-claro
+  flex-direction: column
+  justify-content: space-between
+  // bottom: 0
+  top: 44px
+  li
+    list-style: none
+
+  a
+    color: $cinza-claro
+    padding: 5px
+    display: block
+    font-size: 18px
+    // font-weight: 600
+    &:hover,
+    &:focus
+      color: $azul
+  .temas
+    margin: 15px 10px
+    overflow: auto
+  .disciplinas
+    margin: 15px 10px
+    border-top: 1px solid $azul
+    bottom: 0
+    padding-bottom: 50px
+  +breakpoint ($celular)
+    display: flex
