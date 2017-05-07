@@ -1,0 +1,20 @@
+NOÇÕES DE LOGICA BOOLEANA
+
+-A lógica booleana é uma derivada da logica marematica, assim como
+a algebra booleana é derivada sa algebra basica.
+- A lógica booleana difere em 3
+aspectos básicos:
+  *nos valores que as "variaveis"
+  podem assumir (0 = falso; 1 = verdadeiro)
+*Nas aplicações destes valores.
+*E nas propriedades destas operações; isto é; nas leis que elas obedecem.
+
+algebra
+variaveis são numeros reais
+
+os operadores são aplicados a N Reais
+
+Algebra Booleana
+Variaveis assumem apenas 0 ou 1
+
+Operadores retornam apenas 0 ou 1.

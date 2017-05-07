@@ -50,7 +50,7 @@
                 <li><a href="matematica.php#tema-01">tituloDaMateria</a></li>
                 <li><a href="matematica.php#tema-02">tituloDaMateria</a></li>
                 <li><a href="matematica.php#tema-03">tituloDaMateria</a></li>
-                <li><a href="matematica.php#tema-04">tituloDaMateria</a></li>
+                <li><a href="matematica.php#tema-04">Lógica Booleana</a></li>
                 <li><a href="matematica.php#tema-05">tituloDaMateria</a></li>
               </ul>
             </li>
