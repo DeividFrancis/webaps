@@ -9,7 +9,7 @@
         (Tecnologia da informação) é tratada  severamente  entre seus componentes tornando assim um ambiente de trabalho
         qualificado, organizado, e acima de tudo eficiente.
         A gestão de projetos é constituído por 3 métodos :
-    <ul class="texto" style="list-style-type: decimal">
+    <ul class="texto">
       <li>Atenção total no cliente, para saber suas vontades e necessidades no produto em que deseja.</li>
 
       <li>O bom desenvolvimento do grupo que gera o programa, entre grande parte a comunicação dos mesmos tornando produtivo e colaborativo no ambiente de trabalho.</li>
