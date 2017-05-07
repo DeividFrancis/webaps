@@ -27,7 +27,8 @@
               <li><a href="#tema-2"><?php echo $temas[2] ?></a></li>
               <li><a href="#tema-3"><?php echo $temas[3] ?></a></li>
               <li><a href="#tema-4"><?php echo $temas[4] ?></a></li>
-              <!-- <li><a href="#tema-5"><?php echo $temas[5] ?></a></li> -->
+              <li><a href="#tema-5"><?php echo $temas[5] ?></a></li>
+              <li><a href="#tema-6"><?php echo $temas[6] ?></a></li>
             </ul>
             <ul class="disciplinas">
               <li><a href="index.php"><i class="fa fa-home"></i>Inicio</a></li>

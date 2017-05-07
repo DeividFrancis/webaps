@@ -6,6 +6,7 @@ $java = array(
   3 => 'Conceito de Algoritmo',
   4 => 'Criando um Programa',
   5 => 'Exemplo 01',
+  6 => '',
 
  );
 
@@ -16,6 +17,7 @@ $java = array(
     3 => 'Matematicamano' ,
     4 => 'Matematicamano' ,
     5 => 'Lógica Booleana' ,
+    6 => '',
   );
 
 $turma = array(
@@ -24,6 +26,8 @@ $turma = array(
   2 => 'A Influência de Ger. de Projetos' ,
   3 => 'O que é PMBOK' ,
   4 => 'PMI' ,
+  5 => '',
+  6 => '',
  );
 $html = array(
   0 => 'A linguagem HTML',
