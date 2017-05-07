@@ -1,11 +1,11 @@
 <?php
 $java = array(
-  1 => 'Conceito de Algoritmo',
-  2 => 'Introdução à Linguagem Java',
-  3 => 'Operadores',
-  4 => 'Conceito de Algoritmo',
-  5 => 'Criando um Programa',
-  6 => 'Exemplo 01',
+  0 => 'Conceito de Algoritmo',
+  1 => 'Introdução à Linguagem Java',
+  2 => 'Operadores',
+  3 => 'Conceito de Algoritmo',
+  4 => 'Criando um Programa',
+  5 => 'Exemplo 01',
 
  );
 
@@ -19,7 +19,7 @@ $java = array(
   );
 
 $turma = array(
-  0 => 'Matematicamano' ,
+  0 => 'Gerencia de Projetos' ,
   1 => 'Matematicamano' ,
   2 => 'Matematicamano' ,
   3 => 'Matematicamano' ,
@@ -27,12 +27,12 @@ $turma = array(
   5 => 'Matematicamano' ,
  );
 $html = array(
-  0 => 'Ambientes de progamação HTML' ,
-  1 => 'Ferramenta de edição HTML' ,
-  2 => 'Conceitos básicos de Web-Designer' ,
-  3 => 'introção ao CSS' ,
-  4 => 'Cores e unidades' ,
-  5 => 'Propriedades CSS' ,
-  6 => 'A linguagem HTML'
+  0 => 'A linguagem HTML',
+  1 => 'Ambientes de progamação HTML' ,
+  2 => 'Ferramenta de edição HTML' ,
+  3 => 'Conceitos básicos de Web-Designer' ,
+  4 => 'introção ao CSS' ,
+  5 => 'Cores e unidades' ,
+  6 => 'Propriedades CSS' ,
 );
  ?>

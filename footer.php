@@ -22,7 +22,7 @@
                   <br><br>
                   WENDREY NIKOLAS SOARES DE OLIVEIRA
                   <br><br>
-                  LENNON BRASIL
+                  LENNON EWERTON BRASIL
                 </span>
               </address>
           </div>
@@ -40,6 +40,8 @@
                   noryplaygames@hotmail.com
                   <br><br>
                   wendreyzoitim@gmail.com
+                  <br><br>
+                  lennonbrr@gmail.com
                   </span>
               </address>
           </div>
@@ -54,9 +56,9 @@
                   <br><br>
                   Sistema de Informação
                   <br><br>
-                  Prof: ALBERTO AYRES BENICIO.
+                  Prof. ALBERTO AYRES BENICIO.
                   <br><br>
-                  Campus de Cacoal-Ro
+                  Campus de Cacoal - Ro
                 </span>
               </address>
           </div>
@@ -65,5 +67,7 @@
   <div class="copyright"><small>Copyright © 2017 </small></div>
 </footer>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="jquery.js"></script>
 </body>
 </html>
