@@ -25,7 +25,10 @@
       input
         display: none
 .none
-  visibility: hidden
+  // visibility: hidden
+  position: absolute
+  // z-index: -999
+  right: 9999px
 .cabecario
   background-color: #ddd
   min-height: 100vh
@@ -61,6 +64,9 @@
     letter-spacing: 2px
     color: #fff
     text-align: center
+    transition-property: all
+    transition-timing-function: step-end
+    transition-duration: 1s
   .materia
     text-align: center
     color: #eee
