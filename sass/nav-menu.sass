@@ -1,3 +1,7 @@
+@import "mixins"
+@import "../bower_components/breakpoint-sass/stylesheets/breakpoint"
+
+
 // MENU DARK
 .dark
   color: #eee
@@ -12,9 +16,15 @@
   position: fixed
   box-shadow: 0 -3px 10px #000
   padding-top: 15px
+  +breakpoint($celular)
+    padding-top: 0
 .home-menuh
   display: flex
   margin: 40px
+
+    // &:first-child
+      visibility: visible
+
 .home-menuv
   margin: 40px
   padding: 5px
@@ -34,12 +44,28 @@
     &:hover
       margin-left: 5px
       transition: 0.25s
+// .menuh
+  +breakpoint ($celular)
+    display: none
 .menuh, .menuv
   .mtop
     list-style-type: none
     display: flex
     min-width: 100%
     justify-content: space-between
+    +breakpoint ($celular)
+      li
+        display: none
+        // .fa
+          display: block
+      li:first-child
+        display: block
+        font-size: 0
+        .fa
+          // display: b
+          font-size: 20px
+          visibility: visible
+
   a, label
     white-space: nowrap
     text-decoration: none

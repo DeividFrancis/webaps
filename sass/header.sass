@@ -1,9 +1,30 @@
 @import "mixins"
+@import "../bower_components/breakpoint-sass/stylesheets/breakpoint"
+
 .flex
   width: 100%
   display: flex
   justify-content: space-around
   position: absolute
+  +breakpoint ($celular)
+    justify-content: space-between
+    .logosi
+      order: 2
+    .menuh
+      order: 1
+      font-size: 20px
+    .busca
+      order: 3
+      border: none
+      background-color: inherit
+      margin: 0
+      button
+        font-size: 20px
+        color: #eee
+        padding: 10px
+      input
+        display: none
+
 .cabecario
   background-color: #ddd
   height: 100vh
@@ -12,6 +33,7 @@
   background-size: cover
   background-position: center
   background-attachment: fixed
+
   .wrap-column
     padding: 20vh 0
     max-width: 100%
@@ -49,6 +71,7 @@
 .logosi
   font-size: 28px
   font-weight: 600
+  .tm
 .busca
   margin: 10px 0
   padding: 0

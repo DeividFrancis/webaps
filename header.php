@@ -6,7 +6,7 @@
   <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" > <!-- FONT- AWESOME -->
   <link href="css/css-geral.css" rel="stylesheet" type="text/css"/>
   <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Pacifico|Geo" rel="stylesheet">
-  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
   <style media="screen">
   .cabecario{background-image:<?php echo $imagem ?>;} /* filter: brightness(25%);}*/
   </style>
@@ -19,7 +19,8 @@
     <header class="cabecario">
       <div id="menuHeader" class="flex">
         <aside class="logosi" style="color: #ddd">
-          &lt;/Sistemas&gt;
+          <span class="si">&lt;/Sistemas&gt;</span>
+          <!-- <span class="tm"><?php echo $materia ?></span> -->
         </aside>
         <nav  class="menuh">
           <ul class="mtop">

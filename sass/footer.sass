@@ -1,6 +1,6 @@
-$celular: 800px
-$tablet: 600px
-$desktop: 800px
+@import "mixins"
+@import "../bower_components/breakpoint-sass/stylesheets/breakpoint"
+
 
 .mgfooter
   padding: 100px 45px
@@ -14,7 +14,7 @@ $desktop: 800px
     border: none
     display: flex
     justify-content: flex-end
-    // +breakpoint ($celular)
+    +breakpoint ($celular)
       flex-direction: column
   .copyright
     padding: 20px 0

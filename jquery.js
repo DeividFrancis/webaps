@@ -10,10 +10,14 @@ $(function(){
       // $('.sub-menu').css({'background-color':'#222'})
       // $('.menu-fixo').slideDown(5000);
       $('.logosi').css('color', '#888');
+      // $('.logosi').document.wi
+      // $('.logosi').removeClass('si')
 
     } else {
       // $('.sub-menu').addClass('dark');
       nav.removeClass("menu-fixo");
+      // $('.logosi').addClass('si')
+      // $('.logosi').removeClass('tm')
       $(".flex, .mtop a, .sub-menu").removeClass('light');
       $('.logosi').css('color', '#ddd');
     }
