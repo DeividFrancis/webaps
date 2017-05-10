@@ -15,16 +15,15 @@ $java = array(
     2 => 'Matematicamano' ,
     3 => 'Matematicamano' ,
     4 => 'Matematicamano' ,
-    5 => 'Matematicamano' ,
+    5 => 'Lógica Booleana' ,
   );
 
 $turma = array(
-  0 => 'Matematicamano' ,
-  1 => 'Matematicamano' ,
-  2 => 'Matematicamano' ,
-  3 => 'Matematicamano' ,
-  4 => 'Matematicamano' ,
-  5 => 'Matematicamano' ,
+  0 => 'Gerencia de Projetos' ,
+  1 => 'O que é Gestão de Porjetos' ,
+  2 => 'A Influência de Ger. de Projetos' ,
+  3 => 'O que é PMBOK' ,
+  4 => 'PMI' ,
  );
 $html = array(
   0 => 'Ambientes de progamação HTML' ,
