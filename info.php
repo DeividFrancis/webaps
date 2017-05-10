@@ -30,8 +30,9 @@ $turma = array(
   6 => '',
  );
 $html = array(
-  0 => 'A linguagem HTML',
-  1 => 'Ambientes de progamação HTML' ,
+  0 => 'Introdução a Hipertexto',
+  1 => 'A Linguagem HTML',
+  // 2 => 'Ambientes de progamação HTML' ,
   2 => 'Ferramenta de edição HTML' ,
   3 => 'Conceitos básicos de Web-Designer' ,
   4 => 'introção ao CSS' ,

@@ -4,7 +4,7 @@
         <h3 class="titulo" id="tema-1"><?php echo $mat[1] ?></h3>
         <h3 class="titulo" id="tema-2"><?php echo $mat[2] ?></h3>
         <h3 class="titulo" id="tema-3"><?php echo $mat[3] ?></h3>
-          <table>
+          <table class="tabelas">
             <thead>
               <caption>Bucetona</caption>
               <tr>
