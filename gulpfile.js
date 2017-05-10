@@ -10,9 +10,9 @@ var watch = require('gulp-watch');
 
 
 //MODO DEFAUT
-//gulp.task('default', function() {
-  //console.log('ComeçandoGulp');
-//});
+gulp.task('default', function() {
+  console.log('ComeçandoGulp');
+});
 
  //gulp.task('default',['watch'],['sass'] );
 //MODO SASS AUTO COMPILIN
