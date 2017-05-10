@@ -6,11 +6,13 @@
         <h3 class="titulo" id="tema-3"><?php echo $mat[3] ?></h3>
           <table>
             <thead>
+              <caption>Bucetona</caption>
               <tr>
                 <th>p</th>
                 <th>q</th>
                 <th>p --> q</th>
               </tr>
+
             </thead>
             <tbody>
               <tr>
@@ -37,6 +39,21 @@
           </table>
 
         <h3 class="titulo" id="tema-4"><?php echo $mat[4] ?></h3>
+        <div class="window">
+          <span><i>HelloWord.java</i><i class="fa fa-close"></i></span>
+          <code>
+            <pre>
+              public class HelloWord{
+                public static void main(String[] args) {
+                  int numero = 1;
+                  int numero1 = 2;
+
+                  System.out.print(numero+numero1);
+                }
+              }
+            </pre>
+          </code>
+        </div>
 
         <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <h3 class="titulo" id="tema-5"><?php echo $mat[5] ?></h3>
