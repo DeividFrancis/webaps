@@ -83,11 +83,32 @@ ul.texto
 // TABELAS
 // =========================================================
 table
-  background-color: $preto
-  border: 1px solid $cinza-claro
+  // background-color: #
   margin: 0 auto
+  width: 200px
+  text-align: center
+  border-collapse: collapse
+  border: 1px solid #555
+
+  // background-color:
 thead
 tbody
 tr
-th
-td
+  background-color: #555
+tr:nth-child(even)
+  background-color: #666
+th,td
+  border: 1px solid #777
+  color: $branco
+  padding: 5px
+  font-weight: bold
+
+
+td:nth-child(1)
+  color: $roxo
+td:nth-child(2)
+  color: $azul
+td:nth-child(3)
+  color: $laranja
+td:last-child
+  color: $vermelho

@@ -20,18 +20,18 @@
               </tr>
               <tr>
                 <td>V</td>
-                <td>V</td>
+                <td>F</td>
                 <td>F</td>
               </tr>
               <tr>
-                <td>V</td>
                 <td>F</td>
+                <td>V</td>
                 <td>V</td>
               </tr>
               <tr>
+                <td>F</td>
+                <td>F</td>
                 <td>V</td>
-                <td>F</td>
-                <td>F</td>
               </tr>
             </tbody>
           </table>
