@@ -26,12 +26,15 @@
     <p class="texto">
       A definição de como os passos de um algoritmo serão executados é uma implementação do algoritmo. Resumindo, algoritmo é o que deve
        ser feito e implementação é o como deve ser feito. Estamos interessados em desenvolver algoritmos computacionais. Para isso, utilizaremos
-        um modelo de programação. Um modelo de programação fornece ideias e conceitos para nos ajudar a criar algoritmos. Os nossos algoritmos serão
-        executados por um computador. Então, devemos implementá-lo através de programas de computador. Um programa é a definição de como os passos
-        de um algoritmo serão executados no computador. Os programas são escritos em alguma linguagem de programação. Uma linguagem de programação
-        é a maneira de “conversarmos” com um computador. A linguagem que utilizaremos aqui é a Java. O Java é uma linguagem de programação orientada a
-         objetos que atualmente faz parte do núcleo da Plataforma Java.
+        um modelo de programação. Um modelo de programação fornece ideias e conceitos para nos ajudar a criar algoritmos.
     </p>
+    <P class="texto">
+      Os nossos algoritmos serão
+     executados por um computador. Então, devemos implementá-lo através de programas de computador. Um programa é a definição de como os passos
+     de um algoritmo serão executados no computador. Os programas são escritos em alguma linguagem de programação. Uma linguagem de programação
+     é a maneira de “conversarmos” com um computador. A linguagem que utilizaremos aqui é a Java. O Java é uma linguagem de programação orientada a
+      objetos que atualmente faz parte do núcleo da Plataforma Java.
+    </P>
     <h3 class="titulo" id="tema-1">
       <?php echo $java[1] ?>
     </h3>

@@ -16,7 +16,7 @@ $java = array(
     2 => 'Tabela Verdade' ,
     3 => 'Preposições simples' ,
     4 => 'Preposições compostas' ,
-    5 => 'Binarios' ,
+    5 => 'Binários' ,
     6 => 'Lógica Booleana',
   );
 
