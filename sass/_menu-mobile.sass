@@ -2,14 +2,14 @@
 @import "../bower_components/breakpoint-sass/stylesheets/breakpoint"
 .mobile
   padding: 10px
-  .toggle
-      display: none
-      color: $cinza-claro
-      font-size: 20px
-      .fa
-        padding: 0
-      +breakpoint ($celular)
-        display: block
+.toggle, .btnToggle
+    display: none
+    color: $cinza-claro
+    font-size: 20px
+    .fa
+      padding: 0
+    +breakpoint ($celular)
+      display: block
 .ativo
   left: 0px !important
   // transition: .3s

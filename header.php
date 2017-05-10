@@ -40,7 +40,7 @@
           </div>
         </nav>
         <aside class="logosi" style="color: #ddd">
-          <span class="si">&lt;/Sistemas&gt;</span>
+          &lt;/Sistemas&gt;
         </aside>
         <!-- MENU normal -->
         <!-- ============================================================ -->
@@ -50,11 +50,17 @@
           </ul>
         </nav>
         <!-- =============================================================== -->
+        <a href="javascript:;" class="btnToggle"><i class="fa fa-search"></i></a>
         <form class="busca" action="index.html" method="post">
           <button type="button" name="button"><i class="fa fa-search"></i></button>
           <input type="text" name="busca" value="" placeholder="pesquisar">
         </form>
       </div>
+      <form class="busca-mobile" action="index.html" method="post">
+        <button type="button" name="button"><i class="fa fa-search"></i></button>
+        <input type="text" name="busca" value="" placeholder="pesquisar">
+      </form>
+
       <section class="inicio wrap-column">
         <h2 class="materia"><?php echo $materia ?></h2>
         <p class="intro"><?php echo $intro ?></p>

@@ -6,19 +6,24 @@
   display: flex
   justify-content: space-around
   position: absolute
+  .btnToggle
+    padding: 10px
   +breakpoint ($celular)
     justify-content: space-between
     .logosi
       order: 2
     .menuh
       order: 1
-      font-size: 20px
-    .busca
+      display: none
+    .btnToggle
       order: 3
-      border: none
-      background-color: inherit
-      margin: 0
+      // border: none
+      // background-color: inherit
+      // margin: 0
+    .busca
+      display: none
       button
+
         font-size: 20px
         color: #eee
         padding: 10px
@@ -80,6 +85,19 @@
   font-size: 28px
   font-weight: 600
   .tm
+.busca-mobile
+  display: none
+  width: 100%
+  // background-color: $branco
+  border-bottom: 1px solid $branco
+  position: absolute
+  margin: 0 20px
+  top: 45px
+  padding: 10px
+  input
+    background-color: rgba(0, 0, 0, 0)
+    border: none
+    color: $branco
 .busca
   margin: 10px 0
   padding: 0
