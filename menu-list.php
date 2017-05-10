@@ -18,6 +18,8 @@
         <li><a href="matematica.php#tema-2"><?php echo $mat[2] ?></a></li>
         <li><a href="matematica.php#tema-3"><?php echo $mat[3] ?></a></li>
         <li><a href="matematica.php#tema-4"><?php echo $mat[4] ?></a></li>
+        <li><a href="matematica.php#tema-5"><?php echo $mat[5] ?></a></li>
+        <li><a href="matematica.php#tema-6"><?php echo $mat[6] ?></a></li>
       </ul>
     </li>
     <li><a href="turma.php"><i class="fa fa-"></i>Gerência de Projetos<i class="fa fa-caret-down"></i></a>

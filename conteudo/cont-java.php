@@ -26,12 +26,15 @@
     <p class="texto">
       A definição de como os passos de um algoritmo serão executados é uma implementação do algoritmo. Resumindo, algoritmo é o que deve
        ser feito e implementação é o como deve ser feito. Estamos interessados em desenvolver algoritmos computacionais. Para isso, utilizaremos
-        um modelo de programação. Um modelo de programação fornece ideias e conceitos para nos ajudar a criar algoritmos. Os nossos algoritmos serão
-        executados por um computador. Então, devemos implementá-lo através de programas de computador. Um programa é a definição de como os passos
-        de um algoritmo serão executados no computador. Os programas são escritos em alguma linguagem de programação. Uma linguagem de programação
-        é a maneira de “conversarmos” com um computador. A linguagem que utilizaremos aqui é a Java. O Java é uma linguagem de programação orientada a
-         objetos que atualmente faz parte do núcleo da Plataforma Java.
+        um modelo de programação. Um modelo de programação fornece ideias e conceitos para nos ajudar a criar algoritmos.
     </p>
+    <P class="texto">
+      Os nossos algoritmos serão
+     executados por um computador. Então, devemos implementá-lo através de programas de computador. Um programa é a definição de como os passos
+     de um algoritmo serão executados no computador. Os programas são escritos em alguma linguagem de programação. Uma linguagem de programação
+     é a maneira de “conversarmos” com um computador. A linguagem que utilizaremos aqui é a Java. O Java é uma linguagem de programação orientada a
+      objetos que atualmente faz parte do núcleo da Plataforma Java.
+    </P>
     <h3 class="titulo" id="tema-1">
       <?php echo $java[1] ?>
     </h3>
@@ -80,29 +83,27 @@
     </ul>
 
     <h3 class="titulo" id="tema-3"><?php echo $java[3] ?></h3>
-
-    <p class="texto">
-      <code>
-        <pre>
-package p2.exemplos;
-// Todo programa tem um ponto de entrada: o "método" main de alguma "classe"
-public class Hello {
-public static void main(String[] args) {
-System.out.println("Hello, world!");
-}
-}
-        </pre>
-      </code>
-    </p>
+      <p class="texto">Veja o Exemplo  a seguir:</p>
+      <div class="window">
+        <span><i>Hello.java</i><i class="fa fa-close"></i></span>
+        <code>
+          <pre>
+            package p2.exemplos;
+              public class Hello {
+                public static void main(String[] args) {
+                  System.out.println("Hello, world!");
+                }
+            }
+          </pre>
+        </code>
+      </div>
 
     <h4 class="sub-titulo">Observações</h4>
-    <p class="texto">
-      A linha <br> <br>
-      <code>package p2.exemplos;</code> <br> <br>
-      é usada para indicar que este programa faz parte de um "pacote" que pode conter vários programas
+    <p class="texto">A linha</p>
+      <code><pre class="line">package p2.exemplos;</pre></code>
+      <p class="texto">é usada para indicar que este programa faz parte de um "pacote" que pode conter vários programas</p>
       <p class="texto">
         É uma forma de organizar vários programas, da mesma forma que "pastas" ou "diretórios"
         são usados para organizar arquivos num sistema de arquivos
       </p>
-    </p>
 </aside>

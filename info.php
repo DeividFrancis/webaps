@@ -11,13 +11,13 @@ $java = array(
  );
 
  $mat = array(
-    0 => 'Matematicamano' ,
-    1 => 'Matematicamano' ,
-    2 => 'Matematicamano' ,
-    3 => 'Matematicamano' ,
-    4 => 'Matematicamano' ,
-    5 => 'Lógica Booleana' ,
-    6 => '',
+    0 => 'Mat. aplicada a computação' ,
+    1 => 'Operação com fração' ,
+    2 => 'Tabela Verdade' ,
+    3 => 'Preposições simples' ,
+    4 => 'Preposições compostas' ,
+    5 => 'Binários' ,
+    6 => 'Lógica Booleana',
   );
 
 $turma = array(
@@ -30,8 +30,9 @@ $turma = array(
   6 => '',
  );
 $html = array(
-  0 => 'A linguagem HTML',
-  1 => 'Ambientes de progamação HTML' ,
+  0 => 'Introdução a Hipertexto',
+  1 => 'A Linguagem HTML',
+  // 2 => 'Ambientes de progamação HTML' ,
   2 => 'Ferramenta de edição HTML' ,
   3 => 'Conceitos básicos de Web-Designer' ,
   4 => 'introção ao CSS' ,
