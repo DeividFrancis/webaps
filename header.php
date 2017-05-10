@@ -10,8 +10,7 @@
   <style media="screen">
   .cabecario{background-image:<?php echo $imagem ?>;} /* filter: brightness(25%);}*/
   </style>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="jquery.js"></script>
+  
 </head>
 <body>
   <main>

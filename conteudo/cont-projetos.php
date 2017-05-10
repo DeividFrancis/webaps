@@ -1,5 +1,6 @@
 <aside class="box wrap-column">
     <section class="td-conteudo wrap">
+<<<<<<< HEAD
         <h3 class="titulo" id="tema-0"><?php echo $turma [0] ?></h3>
         <p class="texto">O significado da palavra GERÊNCIA  tem duplo sentido mas no entanto é o mesmo paradeiro,
            sendo eles:  Ação ou feito, de gerir; gerenciamento e função ou exercício de gerente; administração
@@ -34,6 +35,11 @@
          É necessário um plano de projeto traçando as metas necessárias para a entrega, tendo um documento  definindo a data de cada edição
          e  marco do projeto.
          </p>
+=======
+        <h3 class="titulo" id="tema-0"><?php echo $turma[0] ?></h3>
+         <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h3 class="titulo" id="tema-1"><?php echo $turma[1] ?></h3>
+>>>>>>> 8dd28551cacced1ef7a95dd97e6dd30b1c9b1142
         <h3 class="titulo" id="tema-2"><?php echo $turma[2] ?></h3>
         <p class="texto">
          Atua como uma peça chave para a boa execução  do projeto em que todas as pessoas estão envolvidas com o projeto tem a necessidade de
