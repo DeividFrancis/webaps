@@ -11,13 +11,13 @@ $java = array(
  );
 
  $mat = array(
-    0 => 'Matematicamano' ,
-    1 => 'Matematicamano' ,
-    2 => 'Matematicamano' ,
-    3 => 'Matematicamano' ,
-    4 => 'Matematicamano' ,
-    5 => 'Lógica Booleana' ,
-    6 => '',
+    0 => 'Mat. aplicada a computação' ,
+    1 => 'Operação com fração' ,
+    2 => 'Tabela Verdade' ,
+    3 => 'Preposições simples' ,
+    4 => 'Preposições compostas' ,
+    5 => 'Binarios' ,
+    6 => 'Lógica Booleana',
   );
 
 $turma = array(
