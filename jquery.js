@@ -6,10 +6,13 @@ $(function(){
   $(window).scroll(function () {
     if ($(this).scrollTop() > 600) {
       nav.addClass("menu-fixo");
+      // $('.menu-mobile').addClass('fixed');
       $(".flex, .mtop a, .sub-menu, .menu-mobile").addClass('ligth');
       $(".flex, .mtop a, .sub-menu, .menu-mobile a, .logosi, .toggle, .btnToggle").addClass('ligth-a');
     } else {
       nav.removeClass("menu-fixo");
+      // $('.menu-mobile').removeClass('fixed');
+
       $(".flex, .mtop a, .sub-menu, .menu-mobile").removeClass('ligth');
       $(".flex, .mtop a, .sub-menu, .menu-mobile a, .logosi, .toggle, .btnToggle").removeClass('ligth-a');
     }
@@ -33,5 +36,7 @@ $(document).ready(function() {
     $('.menu-mobile').toggleClass('ativo');
     $('.inicio').toggleClass('none');
   });
-  // $('.menu.')
+  $('.btnToggle').click(function() {
+    $('.busca-mobile').toggleClass('search');
+  });
 });

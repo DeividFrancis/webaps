@@ -10,6 +10,7 @@
   <style media="screen">
   .cabecario{background-image:<?php echo $imagem ?>;} /* filter: brightness(25%);}*/
   </style>
+  <!-- <script src="bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script> -->
 
 </head>
 <body>
@@ -56,10 +57,12 @@
           <input type="text" name="busca" value="" placeholder="pesquisar">
         </form>
       </div>
-      <form class="busca-mobile" action="index.html" method="post">
-        <button type="button" name="button"><i class="fa fa-search"></i></button>
-        <input type="text" name="busca" value="" placeholder="pesquisar">
-      </form>
+      <div class="busca-mobile">
+        <form class="buscamobile" action="index.html" method="post">
+          <input type="text" name="busca" value="" placeholder="Matérias, Titulos">
+          <button type="button" name="button"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
 
       <section class="inicio wrap-column">
         <h2 class="materia"><?php echo $materia ?></h2>

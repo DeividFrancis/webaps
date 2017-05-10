@@ -87,17 +87,26 @@
   .tm
 .busca-mobile
   display: none
-  width: 100%
   // background-color: $branco
   border-bottom: 1px solid $branco
-  position: absolute
-  margin: 0 20px
+  position: relative
   top: 45px
+  margin: 0 20px
   padding: 10px
   input
+    font-size: 20px
+    max-width: 100%
+
     background-color: rgba(0, 0, 0, 0)
     border: none
     color: $branco
+  button
+    float: right
+    font-size: 20px
+.search
+  display: block !important
+  position: fixed
+
 .busca
   margin: 10px 0
   padding: 0
