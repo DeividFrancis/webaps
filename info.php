@@ -16,8 +16,9 @@ $java = array(
     2 => 'Tabela Verdade' ,
     3 => 'Preposições simples' ,
     4 => 'Preposições compostas' ,
-    5 => 'Binários' ,
-    6 => 'Lógica Booleana',
+    5 => 'Operações lógicas sobre as proposições' ,
+    6 => 'Binários' ,
+    7 => 'Lógica Booleana',
   );
 
 $turma = array(

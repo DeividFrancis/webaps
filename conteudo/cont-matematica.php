@@ -117,7 +117,234 @@
           <p class="texto">
             São proposições que exprimem mais de uma ideia ( no mínimo duas diferentes e são formadas pela combinação de outras proposições simples.
           </p>
-        <div class="window">
+        <h3 class="titulo" id="tema-5"><?php echo $mat[5] ?></h3>
+          <p class="texto">
+            As operações realizadas sobre proposição são chamadas de operações
+             lógicas está técnica é chamada de cálculo proposicional que é
+              analógico ao cálculo aritmético sobre números as operações
+              lógicas fundamentais são
+          </p>
+
+          <p class="texto">
+            1- <strong>Negação: </strong>: Chama-se negação de uma proposição “P” a
+             proposição representada por “não P” cujo o valor lógico será verdadeiro (V), quando “P” for falso (F) terá valor lógico falso “F”, quando “P” for verdadeiro (v).
+          </p>
+          <ul class="texto" style="list-style-type: none">
+            <li>Notação : Não = ~*</li>
+            <li>E lê-se : Não P= ~P</li>
+            <li><strong>Ex:</strong> Fazendo negação das seguintes proposições :</li>
+            <li>P: 2+3 = 5   V (p) =V</li>
+            <li>~P : 2+3 = ou diferente de 5 V(~P)=F</li>
+            <li><strong>Ex 2 :</strong></li>
+            <li>Roma é capital de França V(P)=F</li>
+            <li>~S Roma não é capital de França V(~S)=V</li>
+
+          </ul>
+          <h4 class="sub-titulo">Conjunção conectivo ''<strong>E</strong>''</h4>
+            <p class="texto">
+              Chama-se conjunção de duas proposições ''<strong>P</strong>,<strong>Q</strong>'' cujo o valor lógico será verdadeiro (V) quando a proposição ''<strong>P</strong>,<strong>Q</strong>'' forem <strong>verdadeiras</strong>, e <strong>Falso</strong> (f) e nos demais casos
+            </p>
+
+            <table class="tabelas">
+              <caption>
+                Tabela verdade (E ^)
+              </caption>
+              <thead>
+                <tr>
+                  <th>P</th>
+                  <th>Q</th>
+                  <th>P ^ Q</th>
+                </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                    <td>V</td>
+                    <td>V</td>
+                    <td>V</td>
+                  </tr>
+                  <tr>
+                    <td>V</td>
+                    <td>F</td>
+                    <td>F</td>
+                  </tr>
+                  <tr>
+                    <td>F</td>
+                    <td>V</td>
+                    <td>F</td>
+                  </tr>
+                  <tr>
+                    <td>F</td>
+                    <td>F</td>
+                    <td>F</td>
+                  </tr>
+              </tbody>
+            </table>
+
+          <p class="texto">Notação (e=^):</p>
+          <p class="texto">P e Q <--> P ^ Q</p>
+        <h4 class="sub-titulo">Disjunção ( conectivo ''<strong>OU</strong>'') </h4>
+          <p class="texto">
+            Chama-se de disjunção de duas proposições ''<strong>P</strong>,<strong>Q</strong>'' a proposição representado por ''<strong>P</strong>ou<strong>Q</strong>'' cujo o valor lógico e verdadeiro (v) quando ao menos umas das proposições é <strong>verdadeiras</strong>, e tem valor lógico <strong>Falso</strong> (F) quando duas proposições forem falsas notação : (ou=V)
+          </p>
+          <p class="texto">Ou P ou Q <--> P V Q</p>
+
+          <table class="tabelas">
+            <caption>
+              Tabela verdade (OU)
+            </caption>
+            <thead>
+              <tr>
+                <th>P</th>
+                <th>Q</th>
+                <th>P v Q</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                  <td>V</td>
+                  <td>V</td>
+                  <td>V</td>
+                </tr>
+                <tr>
+                  <td>V</td>
+                  <td>F</td>
+                  <td>V</td>
+                </tr>
+                <tr>
+                  <td>F</td>
+                  <td>V</td>
+                  <td>V</td>
+                </tr>
+                <tr>
+                  <td>F</td>
+                  <td>F</td>
+                  <td>V</td>
+                </tr>
+            </tbody>
+          </table>
+
+          <h4 class="sub-titulo">Disjunção exclusivas <br>
+(conectivo ou,ou)
+          </h4>
+          <p class="texto">
+            Chama-se de dinsjução exclusiva de duas proposições “P” “Q” a proposição representada por “ou P ou Q” isto é, ou P é verdadeiro; ou Q é verdadeiro, mas não ambas ao mesmo tempo.
+Por tanto o valor lógico desta proposição composta será verdadeiro quando V (P) = V, ou V(q) = V alterna mente notação (ou, ou = V)
+
+          </p>
+          <p class="texto">Ou P ou Q <--> P <span style="text-decoration: underline;">V</span> Q</p>
+
+          <table class="tabelas">
+            <caption>
+              Tabela verdade Disjunção
+            </caption>
+            <thead>
+              <tr>
+                <th>P</th>
+                <th>Q</th>
+                <th>P <span style="text-decoration: underline;">V</span> Q</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                  <td>V</td>
+                  <td>V</td>
+                  <td>V</td>
+                </tr>
+                <tr>
+                  <td>V</td>
+                  <td>F</td>
+                  <td>V</td>
+                </tr>
+                <tr>
+                  <td>F</td>
+                  <td>V</td>
+                  <td>V</td>
+                </tr>
+                <tr>
+                  <td>F</td>
+                  <td>F</td>
+                  <td>V</td>
+                </tr>
+            </tbody>
+          </table>
+
+        <h4 class="sub-titulo">Condicional (Conectivo “ se então”...)</h4>
+          <p class="texto">
+            Chama-se de proposição condicional uma proposição representada por “ se P então Q” cujo o valor lógico é falsidade (F) no caso em que primeira proposição é verdadeira e segunda proposição é falsa e será verdadeira nos demais casos
+          </p>
+          <p class="texto">Notação (-->)</p>
+          <p class="texto">(P --> ) e lê-se de duas formas possíveis </p>
+          <p class="texto">(i)	P é condição suficiente para Q</p>
+          <p class="texto">(ii)	Q é condição necessária para P</p>
+          <p class="texto"></p>
+
+          <h4 class="sub-titulo"> Onde :</h4>
+            <p class="texto">P : É a preposição antecedente</p>
+            <p class="texto">Q: É a preposição consequente</p>
+            <p class="texto">Uma preposição condicional P --> Q não afirma que o consequente q se deduz ou é consequência do antecedente e do consequente conforme a tabela verdade.</p>
+
+          <h4 class="sub-titulo">Bicondicional (..Se somente Se..)</h4>
+            <p class="texto">
+              Chama-se de proposição bicondicional ou apenas bicondicional uma proposição composta representada por “P” se somente “Q” cujo o valor lógico sera (voltado) verdadeiro (V) quando P,Q forem ambos verdadeiros, ou ambos falsos e falsidade (F) nos demais casos
+            </p>
+            <p class="texto">
+              Notação P &lt;--&gt; Q  e se lê de uma das seguintes formas :
+            </p>
+
+            <p class="texto">
+              (e) P é condição necessária e suficiente para Q
+            </p>
+            <p class="texto">
+              (ii) Q é  condição necessária e suficiente para p.
+            </p>
+
+            <table class="tabelas">
+              <caption>
+                Tabela verdade Bi condicional
+              </caption>
+              <thead>
+                <tr>
+                  <th>P</th>
+                  <th>Q</th>
+                  <th>P &lt;-&gt;</span> Q</th>
+                </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                    <td>V</td>
+                    <td>V</td>
+                    <td>V</td>
+                  </tr>
+                  <tr>
+                    <td>V</td>
+                    <td>F</td>
+                    <td>F</td>
+                  </tr>
+                  <tr>
+                    <td>F</td>
+                    <td>V</td>
+                    <td>F</td>
+                  </tr>
+                  <tr>
+                    <td>F</td>
+                    <td>F</td>
+                    <td>V</td>
+                  </tr>
+              </tbody>
+            </table>
+
+          <h4 class="sub-titulo">Resumindo:</h4>
+            <ul class="texto">
+              <li>(~) Negação</li>
+              <li>(^) disjunção</li>
+              <li>(v) conjunção</li>
+              <li>(v) conjunção exclusiva </li>
+              <li>(->) condicional </li>
+              <li>(<-&gt;) bi condicional </li>
+            </ul>
+
+
+        <!-- <div class="window">
           <span><i>HelloWord.java</i><i class="fa fa-close"></i></span>
           <code>
             <pre>
@@ -131,10 +358,36 @@
               }
             </pre>
           </code>
-        </div>
+        </div> -->
 
-        <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <h3 class="titulo" id="tema-5"><?php echo $mat[5] ?></h3>
-        <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h3 class="titulo" id="tema-6"><?php echo $mat[6] ?></h3>
+          <p class="texto">
+            O sistema binário (ou de base) é um sistema posicional em que todas quantidades são representadas com base em 2 números: <strong>Zero</strong> (0) e <strong>Um</strong> (1).
+          </p>
+          <h4 class="sub-titulo">Conversão de decimal em binários:</h4>
+            <p class="texto">
+              Para transformar um número decimal em binário, deve-se realizar uma série de divisões pelo valor de base, que é o número 2.
+            </p>
+            <p class="texto">
+              <strong>Ex:    </strong>
+            </p>
+            <p class="texto">
+              (5)¹º
+            </p>
+            <p class="texto">
+              5/2 (RESTO: 1) -> 2/2 (RESTO: 0) -> (RESTO: 1)
+            </p>
+            <p class="texto">
+              (101)²
+            </p>
+          <h4 class="sub-titulo">Conversão de binário para decimal</h4>
+            <p class="texto">
+              Para converter os números binários em números decimais deve-se somar o produto do dígito binário e dois elevado a posição do dígito, conforme abaixo:
+            </p>
+            <ul class="texto">
+              <li>(101)² -> (x)¹º</li>
+              <li>1.2²+0.2¹+1.2º</li>
+              <li>4 + 0 + 1 = (5)¹º</li>
+            </ul>
     </section>
 </aside>
