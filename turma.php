@@ -1,6 +1,9 @@
 <?php
 $materia = 'Gerência de Projetos';
-$intro = 'Conteudo apresentado à disciplina de introdução a linguagem algoritca, do 1º período do Curso de Sistemas de informação, das Faculdades Integradas de Cacoal, sob a orientação do(a) Prof. Natanael Oliveira Filho. e editado pelo academico joao doria';
+$intro = 'No mundo atual grandes empresas até mesmo de pequeno, e médio porte necessita de um Gerenciador de Projetos, a qual se torna a peça chave de qualquer futuro comprometedor.
+A Gerência de Projetos aplicada a profissionais de “ TI”
+(Tecnologia da informação) é tratada  severamente  entre seus componentes tornando assim um ambiente de trabalho
+qualificado, organizado, e acima de tudo eficiente.';
 $imagem = 'url("imagens/paper.jpg")';
 $tutor = 'willian';
 

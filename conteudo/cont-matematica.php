@@ -79,39 +79,7 @@
             As proposições simples são denotadas por letras minúsculas do alfabeto
              latino (p,q,r,s,t)
         </p>
-          <table class="tabelas">
-            <thead>
-              <caption>Bucetona</caption>
-              <tr>
-                <th>p</th>
-                <th>q</th>
-                <th>p --> q</th>
-              </tr>
-
-            </thead>
-            <tbody>
-              <tr>
-                <td>V</td>
-                <td>V</td>
-                <td>V</td>
-              </tr>
-              <tr>
-                <td>V</td>
-                <td>F</td>
-                <td>F</td>
-              </tr>
-              <tr>
-                <td>F</td>
-                <td>V</td>
-                <td>V</td>
-              </tr>
-              <tr>
-                <td>F</td>
-                <td>F</td>
-                <td>V</td>
-              </tr>
-            </tbody>
-          </table>
+          
 
         <h3 class="titulo" id="tema-4"><?php echo $mat[4] ?></h3>
           <p class="texto">

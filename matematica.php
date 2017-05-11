@@ -1,6 +1,6 @@
 <?php
 $materia = 'Matemática';
-$intro = 'Conteudo apresentado à disciplina de introdução a linguagem algoritca, do 1º período do Curso de Sistemas de informação, das Faculdades Integradas de Cacoal, sob a orientação do(a) Prof. Natanael Oliveira Filho. e editado pelo academico joao doria';
+$intro = 'A matemática é essencial em todos os aspectos porém com o início da informatização ela se tornou peça fundamental nos fatores relevantes para a resolução de problemas lógicos, trazendo uma nova área de conhecimento para nós acadêmicos';
 $imagem = 'url("imagens/mat-pen.jpg")';
 $tutor = 'Medina';
 
