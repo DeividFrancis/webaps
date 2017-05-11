@@ -24,8 +24,8 @@ gulp.task('default', function() {
 */
 gulp.task('sass', function() {
   return gulp.src('sass/**/*.sass')
-  .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
-  // .pipe(sass())
+  // .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+  .pipe(sass())
   .pipe(gulp.dest('css')); // O MODO (PASTA</**/*.>TIPO DE ARQUIVO) E PARA PEGAR TODAS AS PASTA E SUB-PASTAS
 });
 

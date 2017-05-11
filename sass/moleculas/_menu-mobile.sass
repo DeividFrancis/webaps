@@ -1,4 +1,4 @@
-@import "mixins"
+@import "atom/mixins"
 @import "../bower_components/breakpoint-sass/stylesheets/breakpoint"
 .mobile
   padding: 10px
@@ -18,7 +18,7 @@
   border-top: 1px solid $cinza-claro
   left: -2380px
   display: none
-  min-width: 200px
+  max-width: 300px
   position: absolute
   height: 95vh
   transition: .4s
@@ -40,10 +40,15 @@
     &:focus
       color: $azul
   .temas
-    margin: 15px 10px
+    margin: 0px 10px
     overflow: auto
+    li:first-child
+      a
+        font-weight: bold
+        border-bottom: 1px solid $azul
+        margin-bottom: 10px
   .disciplinas
-    margin: 15px 10px
+    margin: 15px 10px 40px 10px
     border-top: 1px solid $azul
     bottom: 0
     // padding-bottom: 50px

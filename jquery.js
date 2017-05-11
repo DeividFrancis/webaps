@@ -7,11 +7,11 @@ $(function(){
     if ($(this).scrollTop() > 600) {
       nav.addClass("menu-fixo");
       $(".flex, .mtop a, .sub-menu, .menu-mobile").addClass('ligth');
-      $(".flex, .mtop a, .sub-menu, .menu-mobile a, .logosi, .toggle, .btnToggle").addClass('ligth-a');
+      $(".flex, .mtop a, .sub-menu, .menu-mobile a, .logosi a, .toggle, .btnToggle").addClass('ligth-a');
     } else {
       nav.removeClass("menu-fixo");
       $(".flex, .mtop a, .sub-menu, .menu-mobile").removeClass('ligth');
-      $(".flex, .mtop a, .sub-menu, .menu-mobile a, .logosi, .toggle, .btnToggle").removeClass('ligth-a');
+      $(".flex, .mtop a, .sub-menu, .menu-mobile a, .logosi a, .toggle, .btnToggle").removeClass('ligth-a');
     }
   });
 });

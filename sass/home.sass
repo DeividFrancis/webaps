@@ -1,4 +1,4 @@
-@import "mixins"
+@import "atom/mixins"
 @import "../bower_components/breakpoint-sass/stylesheets/breakpoint"
 
 *
@@ -107,8 +107,10 @@ h1.materia
     font-size: 35px
 .texto
   font-size: 28px !important
-@import "header.sass"
-@import "nav-menu.sass"
-@import "conteudo"
-@import "footer.sass"
+
+@import "atom/plugins"
+@import "moleculas/nav-menu"
+@import "organism/header"
+@import "organism/conteudo"
+@import "organism/footer"
 // @import "node-modules/breakpoint-sass/stylesheets/breakpoint.scss"

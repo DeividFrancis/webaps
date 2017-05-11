@@ -10,7 +10,7 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
       </script>
       <style>
-        .cabecario{background-image: url(imagens/laptop.jpg);}
+        .cabecario{background-image: url(_imagens/laptop.gif);}
       </style>
   </head>
   <body>
@@ -23,10 +23,10 @@
         <nav class="home-menuh">
           <ul class="home-menuv">
             <li class="title">Disciplinas</li>
-            <li><a href="java.php">Linguagem Algoritmica</a></li>
-            <li><a href="matematica.php">Matemática</a></li>
-            <li><a href="turma.php">Gerência de Projetos</a></li>
-            <li><a href="html-css.php">Hip e Estilos</a></li>
+            <li><a href="_layouts/java.php">Linguagem Algoritmica</a></li>
+            <li><a href="_layouts/matematica.php">Matemática</a></li>
+            <li><a href="_layouts/turma.php">Gerência de Projetos</a></li>
+            <li><a href="_layouts/html-css.php">Hip e Estilos</a></li>
           </ul>
           <ul class="home-menuv">
             <li class="title">Sobre</li>

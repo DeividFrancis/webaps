@@ -1,19 +1,18 @@
 <?php
-$materia = 'Matemática';
+$materia = 'Linguagem Algoritmica';
 $intro = 'Conteudo apresentado à disciplina de introdução a linguagem algoritca, do 1º período do Curso de Sistemas de informação, das Faculdades Integradas de Cacoal, sob a orientação do(a) Prof. Natanael Oliveira Filho. e editado pelo academico joao doria';
-$imagem = 'url("imagens/mat-pen.jpg")';
-$tutor = 'Medina';
+$imagem = 'url("../imagens/tecle.gif")';
+$tutor = 'Natanael';
 
-include 'info.php';
-$temas = $mat;
-
-include 'header.php';
+include '../_atoms/info.php';
+$temas = $java;
+include '../_organism/header.php';
 // ================================================================================
 // TODO O CONTEUDO DEVERA SER ESCRITO AQUI
 // RESPEITANDO TODO O ESTILO JA ATRIBUIDO
-include 'conteudo/cont-matematica.php';
+include '../_organism/conteudo/cont-java.php';
 
 // ================================================================================
-include 'footer.php';
+include '../_organism/footer.php';
 
  ?>
