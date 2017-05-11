@@ -8,6 +8,11 @@
         <li><a href="java.php#tema-3"><?php echo $java[3] ?></a></li>
         <li><a href="java.php#tema-4"><?php echo $java[4] ?></a></li>
         <li><a href="java.php#tema-5"><?php echo $java[5] ?></a></li>
+        <!-- <li><a href="java.php#tema-6"><?php echo $java[6] ?></a></li>
+        <li><a href="java.php#tema-7"><?php echo $java[7] ?></a></li>
+        <li><a href="java.php#tema-8"><?php echo $java[8] ?></a></li>
+        <li><a href="java.php#tema-9"><?php echo $java[9] ?></a></li>
+        <li><a href="java.php#tema-10"><?php echo $java[10] ?></a></li> -->
 
       </ul>
     </li>
@@ -20,6 +25,7 @@
         <li><a href="matematica.php#tema-4"><?php echo $mat[4] ?></a></li>
         <li><a href="matematica.php#tema-5"><?php echo $mat[5] ?></a></li>
         <li><a href="matematica.php#tema-6"><?php echo $mat[6] ?></a></li>
+        <li><a href="matematica.php#tema-7"><?php echo $mat[7] ?></a></li>
       </ul>
     </li>
     <li><a href="turma.php"><i class="fa fa-"></i>Gerência de Projetos<i class="fa fa-caret-down"></i></a>

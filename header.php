@@ -10,7 +10,6 @@
   <style media="screen">
   .cabecario{background-image:<?php echo $imagem ?>;} /* filter: brightness(25%);}*/
   </style>
-  <!-- <script src="bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script> -->
 
 </head>
 <body>
@@ -30,6 +29,10 @@
               <li><a href="#tema-4"><?php echo $temas[4] ?></a></li>
               <li><a href="#tema-5"><?php echo $temas[5] ?></a></li>
               <li><a href="#tema-6"><?php echo $temas[6] ?></a></li>
+              <li><a href="#tema-7"><?php echo $temas[7] ?></a></li>
+              <li><a href="#tema-8"><?php echo $temas[8] ?></a></li>
+              <li><a href="#tema-9"><?php echo $temas[9] ?></a></li>
+              <li><a href="#tema-10"><?php echo $temas[10] ?></a></li>
             </ul>
             <ul class="disciplinas">
               <li><a href="index.php"><i class="fa fa-home"></i>Inicio</a></li>
@@ -57,12 +60,10 @@
           <input type="text" name="busca" value="" placeholder="pesquisar">
         </form>
       </div>
-      <div class="busca-mobile">
-        <form class="buscamobile" action="index.html" method="post">
-          <input type="text" name="busca" value="" placeholder="Matérias, Titulos">
-          <button type="button" name="button"><i class="fa fa-search"></i></button>
-        </form>
-      </div>
+      <form class="busca-mobile" action="index.html" method="post">
+        <button type="button" name="button"><i class="fa fa-search"></i></button>
+        <input type="text" name="busca" value="" placeholder="pesquisar">
+      </form>
 
       <section class="inicio wrap-column">
         <h2 class="materia"><?php echo $materia ?></h2>

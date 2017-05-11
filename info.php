@@ -7,6 +7,10 @@ $java = array(
   4 => 'Criando um Programa',
   5 => 'Exemplo 01',
   6 => '',
+  7 => '',
+  8 => '',
+  9 => '',
+  10 => '',
 
  );
 
@@ -16,8 +20,12 @@ $java = array(
     2 => 'Tabela Verdade' ,
     3 => 'Preposições simples' ,
     4 => 'Preposições compostas' ,
-    5 => 'Binários' ,
-    6 => 'Lógica Booleana',
+    5 => 'Operações lógicas sobre as proposições' ,
+    6 => 'Binários' ,
+    7 => 'Lógica Booleana',
+    8 => '',
+    9 => '',
+    10 => '',
   );
 
 $turma = array(
@@ -28,6 +36,10 @@ $turma = array(
   4 => 'PMI' ,
   5 => '',
   6 => '',
+  7 => '',
+  8 => '',
+  9 => '',
+  10 => '',
  );
 $html = array(
   0 => 'Introdução a Hipertexto',
@@ -38,5 +50,9 @@ $html = array(
   4 => 'introção ao CSS' ,
   5 => 'Cores e unidades' ,
   6 => 'Propriedades CSS' ,
+  7 => '' ,
+  8 => '' ,
+  9 => '' ,
+  10 => '' ,
 );
  ?>
