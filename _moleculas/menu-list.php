@@ -13,7 +13,7 @@
         <li><a href="java.php#tema-8"><?php echo $java[8] ?></a></li>
         <li><a href="java.php#tema-9"><?php echo $java[9] ?></a></li>
         <li><a href="java.php#tema-10"><?php echo $java[10] ?></a></li> --> -->
-        <?php echo array_values($teste) ?>
+        <?php var_dump (array_values($teste)) ?>
       </ul>
     </li>
     <li><a href="../_layouts/matematica.php"><i class="fa fa-"></i>Matemática<i id="flip" class="fa fa-caret-down"></i></a>
