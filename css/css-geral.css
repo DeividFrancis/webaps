@@ -206,6 +206,8 @@ nav.menuv {
   .menu-mobile .temas {
     margin: 0px 10px;
     overflow: auto; }
+    .menu-mobile .temas li a {
+      border-bottom: 1px solid #c5c5c5; }
     .menu-mobile .temas li:first-child a {
       font-weight: bold;
       border-bottom: 1px solid #08c;

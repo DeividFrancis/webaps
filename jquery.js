@@ -16,7 +16,6 @@ $(function(){
   });
 });
 // ======================================================================================
-// TESTE DESFOCAR O FUNDO NO EVENTO OVER
 $(document).ready(function() {
   var over = $('.mtop');
   over.mouseover(function() {
@@ -29,9 +28,13 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-  $('.toggle, .menu-mobile a, .box, footer').click(function() {
+  $('.toggle, .menu-mobile a, footer').click(function() {
     $('.menu-mobile').toggleClass('ativo');
     $('.inicio').toggleClass('none');
+  });
+  $('.box').click(function(event) {
+    $('.menu-mobile').removeClass('ativo');
+
   });
   // $('.menu.')
 });
