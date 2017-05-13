@@ -6,14 +6,16 @@ $(function(){
   $(window).scroll(function () {
     if ($(this).scrollTop() > 600) {
       nav.addClass("menu-fixo");
-      $(".flex, .mtop a, .sub-menu, .menu-mobile").addClass('ligth');
-      $(".flex, .mtop a, .sub-menu, .menu-mobile a, .logosi a, .toggle, .btnToggle").addClass('ligth-a');
+      $(".flex, .mtop").addClass('ligth');
+      $(".sub-menu a, .sub-menu, .menu-mobile").addClass('ligthB');
+      $(".sub-menu a, .menu-mobile a ").addClass('ligth-a');
 
 
     } else {
       nav.removeClass("menu-fixo");
-      $(".flex, .mtop a, .sub-menu, .menu-mobile").removeClass('ligth');
-      $(".flex, .mtop a, .sub-menu, .menu-mobile a, .logosi a, .toggle, .btnToggle").removeClass('ligth-a');
+      $(".sub-menu a, .sub-menu, .menu-mobile").removeClass('ligthB');
+      $(".flex, .mtop").removeClass('ligth');
+      $(".sub-menu a, .menu-mobile a").removeClass('ligth-a');
 
 
     }
@@ -44,6 +46,10 @@ $(this).find('.sub-menu').slideUp(100);
 $(document).ready(function() {
   $('.toggle, .menu-mobile a, footer').click(function() {
     $('.inicio').toggle(200);
+    // $('.inicio').animate({
+      // left: 1200px,
+      // width: 'toggle'
+    // }, 200);
     $('.menu-mobile').animate({
       width: 'toggle'
     }, 200);

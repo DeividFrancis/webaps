@@ -8,16 +8,24 @@
 
 // MENU LIGTH
 .ligth
-  background-color: #eee
+  background-color: $azul
+  font-weight: bold
+.ligthB
+  background-color: #fff
 .ligth-a
-  color: $preto  !important
+  color: $preto !important
+  font-weight: normal
+  &:hover,
+  &:focus
+    background-color: rgba($preto, .15)
+  // font-weight: bold
 
-  &:hover
+  // &:hover
     color: $azul !important
 
 .menu-fixo
   position: fixed !important
-  box-shadow: 0 -3px 10px #000
+  box-shadow: 0 -2px 5px #000
   padding-top: 15px
   top: 0
   +breakpoint($celular)
@@ -62,7 +70,7 @@
     text-decoration: none
     display: block
     padding: 10px
-    color: #ddd
+    color: #fff
   span
     +flexbox
     color: #ddd
