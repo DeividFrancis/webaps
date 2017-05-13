@@ -47,6 +47,7 @@ $html = array(
   'introção ao CSS' ,
   'Cores e unidades' ,
   'Propriedades CSS' ,
+  'JavaScript Básico'
 );
 
 

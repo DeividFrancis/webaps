@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>APS</title>
       <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" > <!-- FONT- AWESOME -->
       <link href="css/home.css" rel="stylesheet" type="text/css"/>
@@ -17,9 +18,9 @@
     <main>
       <!-- CABECARIO -->
       <header  class="cabecario">
-        <h1 class="materia">Atividade Pratica Supervisionada <br>
-          <span>Unesc | Sistema de Informação | 2017</span>
-        </h1>
+        <div class="titulo-home"><div class="um">Atividade Pratica Supervisionada </div>
+          <div class="dois">Unesc | Sistema de Informação | 2017</div>
+        </div>
         <nav class="home-menuh">
           <ul class="home-menuv">
             <li class="title">Disciplinas</li>

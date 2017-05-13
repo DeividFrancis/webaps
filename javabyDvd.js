@@ -1,3 +1,12 @@
+// TESTE DE TABELA
+
+function facao(var numerador, denominador, igual) {
+      document.write("<table><tr><td>"+numerador+"</td><td>"+igual+"</td></tr><tr><td>"+denominador+"</td></tr></table>");
+};
+
+
+
+// ===================================================================
 var home = 0;
 var java = [
   'Conceito de Algoritmo',

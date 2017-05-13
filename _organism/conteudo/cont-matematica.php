@@ -112,7 +112,14 @@
             <p class="texto">
               Chama-se conjunção de duas proposições ''<strong>P</strong>,<strong>Q</strong>'' cujo o valor lógico será verdadeiro (V) quando a proposição ''<strong>P</strong>,<strong>Q</strong>'' forem <strong>verdadeiras</strong>, e <strong>Falso</strong> (f) e nos demais casos
             </p>
-
+            <script>
+            function fracao(numerador, denominador, igual) {
+                  document.write("<table class='fracao'><tr><td>"+numerador+"</td><td> = "+igual+"</td></tr><tr><td>"+denominador+"</td></tr></table>");
+                  // document.write(numerador, denominador, igual);
+            };
+                fracao(10,2,5);
+                document.write("mamao")
+            </script>
             <table class="tabelas">
               <caption>
                 Tabela verdade (E ^)

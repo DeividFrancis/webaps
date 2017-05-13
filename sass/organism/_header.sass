@@ -51,9 +51,16 @@
     +flexbox
     flex-direction: column
     justify-content: space-between
+
   .continue
     text-align: center
-    margin: 50px
+    // margin: 0 auto
+    // margin-top: 250px
+    position: absolute
+    bottom: 100px
+    align-self: center
+    +breakpoint($celular)
+      // margin-top: 20px
     a
       color: #ddd
       font-size: em(28)
@@ -65,20 +72,26 @@
         color: #eee
         border-color: #eee
   .intro
-    font-size: em(22)
+    +font-size(22)
+    padding-top: 40px
     letter-spacing: 2px
     color: #fff
     text-align: center
     transition-property: all
     transition-timing-function: step-end
     transition-duration: 1s
+      // padding: 0 5px !important
   .materia
+    +font-size(70)
     text-align: center
     color: #eee
+    padding: 0 20px
   .intro, .materia
     font-weight: 500
     color: #eee
-    padding: 0 20px
+
+    +breakpoint($celular)
+     padding: 0
   .wrap
     +flexbox
 .logosi

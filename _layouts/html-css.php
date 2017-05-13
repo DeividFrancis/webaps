@@ -4,7 +4,7 @@ $intro = 'Conteudo apresentado à disciplina Hipertexto e Estilos, do 1º perío
 $imagem = 'url("../_imagens/html.gif")';
 $tutor = 'ALBERTO AYRES BENICIO';
 
-$definaMateria = $html;
+// $definaMateria = $html;
 include ('../_atoms/titulo-subtitulo.php');
 $definaMateria = $html;
 include '../_organism/header.php';

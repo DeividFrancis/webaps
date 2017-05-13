@@ -56,9 +56,12 @@ $tablet: max-width 991px
 // @function calculateRem($size)
   $remSize: $size / 16px
   @return $remSize * 1rem
+@function calculateRem($size)
+  $remsize: $size / 16
+  @return $remsize * 1rem
 
 =font-size($size)
-  font-size: $size
+  font-size: $size * 1px
   font-size: calculateRem($size)
 
 =opacity($opacity)

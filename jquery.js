@@ -34,6 +34,7 @@ $(document).ready(function() {
   });
   $('.box').click(function(event) {
     $('.menu-mobile').removeClass('ativo');
+    $('.inicio').removeClass('none');
 
   });
   // $('.menu.')
