@@ -59,8 +59,11 @@
     position: absolute
     bottom: 100px
     align-self: center
+    animation-name: pula
+    animation-duration:  5s
     +breakpoint($celular)
-      // margin-top: 20px
+      bottom: 30px
+
     a
       color: #ddd
       font-size: em(28)
@@ -80,12 +83,19 @@
     transition-property: all
     transition-timing-function: step-end
     transition-duration: 1s
+    +breakpoint($celular)
+      +font-size(18)
+      margin: 0 10px
       // padding: 0 5px !important
   .materia
     +font-size(70)
     text-align: center
     color: #eee
     padding: 0 20px
+    +breakpoint($celular)
+      +font-size(30)
+      margin: 0 15px 15px
+      font-weight: bold !important
   .intro, .materia
     font-weight: 500
     color: #eee

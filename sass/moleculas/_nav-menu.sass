@@ -31,13 +31,6 @@
   left: -200px
   a
     color: #333
-  &.ativo
-    transition: .2s
-    left: 0
-// .layout
-  &.ativo
-    transition: .2s
-    padding-left: 200px
 
   +breakpoint ($celular)
     font-size: em(20)
@@ -95,7 +88,8 @@ nav.menuv
       padding: 30px 0 10px 20px
       font-weight: 600
 .sub-menu
-  visibility: hidden
+  // visibility: hidden
+  display: none
   padding: 20px 5px
   position: absolute
   a
@@ -104,7 +98,10 @@ nav.menuv
     &:hover
       padding-left: 15px
       transition: .2s
-.mtop li:hover .sub-menu
-  display: block
-  visibility: visible
-  transition-delay: 0s, 0s, 0.3s
+// .sub-ativado
+   display: block !important
+
+ // .mtop li:hover .sub-menu
+   display: block
+   visibility: visible
+   transition: all 1s

@@ -10,21 +10,17 @@
       padding: 0
     +breakpoint ($celular)
       display: block
-      // font-size: em(60)
-.ativo
-  left: 0px !important
-  // transition: .3s
 
 .menu-mobile
   border-top: 1px solid $cinza-claro
-  left: -2380px
+  // left: -2380px
+  left: 0
   display: none
   width: 100%
-  max-width: 70%
+  max-width: 80%
   position: absolute
-  height: 95vh
-  +transition(.2s)
-  // background-color: $cinza-claro
+  height: 100vh
+  // white-space: nowrap
   flex-direction: column
   justify-content: space-between
   // bottom: 0
@@ -45,7 +41,7 @@
       color: $azul
   .temas
     margin: 0px 10px
-    overflow: auto
+    overflow: visible
     a
      border-bottom: 1px solid rgba($preto, 0.1)
     li:first-child
@@ -53,15 +49,9 @@
         font-weight: bold
         border-bottom: 1px solid rgba($azul, .2)
         margin-bottom: 10px
-    // li:last-child
-      a
-        font-weight: bold
-        border-bottom: none
-        margin-top: 10px
   .disciplinas
     margin: 15px 10px 40px 10px
     border-top: 1px solid $azul
     bottom: 0
     // padding-bottom: 50px
   +breakpoint ($celular)
-    +flexbox

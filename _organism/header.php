@@ -29,7 +29,7 @@
         <!-- =============================================== -->
         <!-- MENU normal -->
         <nav class="menuh">
-          <ul class="mtop">
+          <ul id="menu" class="mtop">
             <li>
               <a href="../index.php">Home</a>
             </li>
