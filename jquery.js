@@ -25,11 +25,11 @@ $(document).ready(function() {
   var hover = $('.mtop li');
   var inicio = $('.inicio');
   hover.hover(function() {
-    // inicio.addClass('none')
-    inicio.hide();
+    inicio.addClass('none')
+    // inicio.hide();
   }, function(){
-    // inicio.removeClass('none')
-    inicio.show()
+    inicio.removeClass('none')
+    // inicio.show()
   });
 });
 // =========================================================
