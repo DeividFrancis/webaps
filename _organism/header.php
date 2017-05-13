@@ -27,41 +27,39 @@
         </aside>
         <!-- =============================================== -->
         <!-- MENU normal -->
-        <!-- ============================================================ -->
         <nav class="menuh">
           <ul class="mtop">
             <li>
-              <a href="../_layouts/materia.php">Home</a>
+              <a href="../index.php">Home</a>
+            </li>
+            <li>
+              <a href="../_layouts/java.php">Linguagem Algoritmica<i class="fa fa-caret-down"></i></a>
               <ul class="sub-menu">
-                <script>temas('index.php', n[0])</script>
+                <?php titulos($java) ?>
               </ul>
             </li>
             <li>
-              <a href="../_layouts/java.php">Linguagem Algoritmica</a>
+              <a href="../_layouts/matematica.php">Matemática<i class="fa fa-caret-down"></i></a>
               <ul class="sub-menu">
-                <script>temas('java.php', 5)</script>
+                <?php titulos($mat) ?>
               </ul>
             </li>
             <li>
-              <a href="../_layouts/matematica.php">Matemática</a>
+              <a href="../_layouts/turma.php">Ger. de Projetos<i class="fa fa-caret-down"></i></a>
               <ul class="sub-menu">
-                <script>temas('matematica.php', n[2])</script>
+                <?php titulos($turma) ?>
               </ul>
             </li>
             <li>
-              <a href="../_layouts/turma.php">Ger. de Projetos</a>
+              <a href="../_layouts/html-css.php">Hip e Estilos<i class="fa fa-caret-down"></i></a>
               <ul class="sub-menu">
-                <script>temas('tuma.php', n[3])</script>
-              </ul>
-            </li>
-            <li>
-              <a href="../_layouts/html-css.php">Hip e Estilos</a>
-              <ul class="sub-menu">
-                <script>temas('html-css.php', n[4])</script>
+                <?php titulos($html) ?>
               </ul>
             </li>
         </ul>
       </nav>
+      <!-- ============================================================ -->
+
         <!-- =============================================================== -->
         <a href="javascript:;" class="btnToggle"><i class="fa fa-search"></i></a>
         <form class="busca" action="index.html" method="post">
@@ -78,17 +76,7 @@
         <h2 class="materia"><?php echo $materia ?></h2>
         <p class="intro"><?php echo $intro ?></p>
         <div class="continue">
-          <a href="#titulo">Continuar Lendo
-             <?php
-          function temas($numero)
-          {
-            for ($i=0; $i < $numero; $i++) {
-              echo "N: $i... ";
-            }
-          }
-
-          temas(4);
-          ?></a>
+          <a href="#titulo">Continuar Lendo</a>
         </div>
 
 

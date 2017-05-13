@@ -1,6 +1,6 @@
 <aside class="box wrap-column">
     <section class="td-conteudo wrap">
-        <h3 class="titulo" id="tema-0"><?php echo $html[0] ?></h3>
+        <?php titulo(1,$definaMateria) ?>
           <h4 class="sub-titulo">História do HTML</h4>
           <P class="texto">
             O criador da HTML foi o inglês Tim Bernes-Lee, em 1991. Sua crição se concebeu no CERN (European Concil for Nuclear Research), na Suíça.
@@ -63,7 +63,7 @@
             </tbody>
           </table>
           <h6>http://blogdoscursos.com.br/html-5-o-que-voce-precisa-saber-para-comecar/</h6>
-        <h3 class="titulo" id="tema-1"><?php echo $html[1] ?></h3>
+        <?php titulo(2,$definaMateria) ?>
           <h4 class="sub-titulo">O que é um arquivo HTML?</h4>
             <ul class="texto">
               <li><strong>HTML</strong> significa <strong>H</strong>yper <strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage (Linguagem de Marcação de Hipertexto)</li>
@@ -72,7 +72,7 @@
               <li>Um arquivo HTML pode ser criado usando um simples editor de textos</li>
             </ul>
 
-          <h4 class="sub-titulo">Principios Básicos da Programação HTML</h4>
+          <?php titulo(3,$definaMateria) ?>
             <p class="texto">
               HTML é baseado em tags (marcações). Com relação às tags devemos considerar que:
             </p>
@@ -89,7 +89,7 @@
             </ul>
         <!-- <h3 class="titulo" id="tema-2"><?php echo $html[2] ?></h3> -->
 
-        <h3 class="titulo" id="tema-2"><?php echo $html[2] ?></h3>
+        <?php titulo(4,$definaMateria) ?>
           <p class="texto">
             Os códigos do HTML são relativamente simples, e é importante que quem deseja aprender HTML os conheça bem.
              No entanto, imagine criar um WebSite inteiro digitando código dentro de código, sem dúvidas o tempo de
@@ -105,7 +105,7 @@
             <li>NetBeans</li>
             <li>DreamWorks</li>
           </ul>
-        <h3 class="titulo" id="tema-3"><?php echo $html[3] ?></h3>
+        <?php titulo(5,$definaMateria) ?>
           <p class="texto">
             O Responsive Web Design se baseia em programar um site de forma que os elementos que o compõem se adaptem
             automaticamente à largura de tela do dispositivo no qual ele está sendo visualizado.
@@ -120,7 +120,7 @@
             <li>Adaptar tamanho de botões e links para interfaces touch onde o ponteiro do mouse é substituído pelo dedo do usuário.</li>
             <li>Utilizar de forma inteligente recursos mobile como geolocalização e mudança na orientação do aparelho (horizontal ou vertical).</li>
           </ul>
-        <h3 class="titulo" id="tema-4"><?php echo $html[4] ?></h3>
-        <h3 class="titulo" id="tema-5"><?php echo $html[5] ?></h3>
+        <?php titulo(6,$definaMateria) ?>
+        <?php titulo(7,$definaMateria) ?>
     </section>
 </aside>

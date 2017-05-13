@@ -4,11 +4,12 @@ $intro = 'No mundo atual grandes empresas até mesmo de pequeno, e médio porte 
 A Gerência de Projetos aplicada a profissionais de “ TI”
 (Tecnologia da informação) é tratada  severamente  entre seus componentes tornando assim um ambiente de trabalho
 qualificado, organizado, e acima de tudo eficiente.';
+
 $imagem = 'url("../_imagens/paper.gif")';
 $tutor = 'willian';
 
-include '../_atoms/info.php';
-$temas = $turma;
+include '../_atoms/titulo-subtitulo.php';
+$definaMateria = $turma;
 include '../_organism/header.php';
 // ================================================================================
 // TODO O CONTEUDO DEVERA SER ESCRITO AQUI

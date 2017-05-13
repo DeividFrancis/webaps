@@ -1,21 +1,11 @@
 <aside class="box wrap-column">
-  <!-- <nav class="menuv">
-    <ul class="menu-ul">
-      <li class="mtitulo">TOPICOS</li>
-      <li><a href=""><i class="fa fa-"></i>Linguagem Algoritmica</a></li>
-      <li><a href=""><i class="fa fa-"></i>Matematica</a></li>
-      <li><a href=""><i class="fa fa-"></i>Gerencia de projetos</a></li>
-      <li><a href=""><i class="fa fa-"></i>hip e estilos</a></li>
-      <li><a href=""><i class="fa fa-"></i>compenentes</a></li>
-    </ul>
-   </nav> -->
   <section class="td-conteudo wrap">
     <header class="apresentacao" id="titulo">
       <h2 class="materia"><?php echo $materia; ?></h2>
       <div class="autor">prof:<a href="#"><?php echo $tutor ?></a></div>
 
     </header>
-    <h3 class="titulo" id="tema-0"><?php echo $java[0] ?></h3>
+    <?php titulo(1,$definaMateria) ?>
 
     <p class="texto">Um algoritmo é uma sequência de passos que resolve algum problema ou alcança algum objetivo, como a sequência de passos
      para resolver o problema de descobrir a máxima altura. É importante salientar que um algoritmo simplesmente diz o que
@@ -35,9 +25,7 @@
      é a maneira de “conversarmos” com um computador. A linguagem que utilizaremos aqui é a Java. O Java é uma linguagem de programação orientada a
       objetos que atualmente faz parte do núcleo da Plataforma Java.
     </P>
-    <h3 class="titulo" id="tema-1">
-      <?php echo $java[1] ?>
-    </h3>
+    <?php titulo(2,$definaMateria) ?>
     <p class="texto">
       Queremos introduzir a linguagem Java básica (sem uso de orientação a objeto) através de alguns exemplos simples
     </p>
@@ -49,7 +37,7 @@
       <li>Muito usada em programação em rede</li>
     </ul>
 
-    <h3 class="titulo" id="tema-2"><?php echo $java[2] ?></h3>
+    <?php titulo(3,$definaMateria) ?>
     <h4 class="sub-titulo">nao sei</h4>
     <ul class="texto">
       <li>+ (soma)</li>
@@ -82,7 +70,7 @@
       <li>! (NOT)</li>
     </ul>
 
-    <h3 class="titulo" id="tema-3"><?php echo $java[3] ?></h3>
+    <?php titulo(4,$definaMateria) ?>
       <p class="texto">Veja o Exemplo  a seguir:</p>
       <div class="window">
         <span><i>Hello.java</i><i class="fa fa-close"></i></span>

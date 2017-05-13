@@ -1,6 +1,6 @@
 <aside class="box wrap-column">
     <section class="td-conteudo wrap">
-        <h3 class="titulo" id="tema-0"><?php echo $mat[0] ?></h3>
+        <?php titulo(1,$definaMateria) ?>
           <p class="texto">
             É uma área de matemática em conjunto com a computação a qual soluciona
             problemas em várias outras matérias tanto da Ciência exatas, entre diversas
@@ -13,7 +13,7 @@
             computação como se fossem interface humana e computador. Tornando assim um
             mundo totalmente informatizado.
           </p>
-        <h3 class="titulo" id="tema-1"><?php echo $mat[1] ?></h3>
+        <?php titulo(3,$definaMateria) ?>
           <p class="texto">
             A/B  Sejam valores “A” e “B” que pertecem ao conjunto dos
             números inteiros e onde “B” é diferente de zero. Dizemos
@@ -50,7 +50,7 @@
              denominadores. Observe que 36 é o MMC de 4 e 9.
           </p>
 
-        <h3 class="titulo" id="tema-2"><?php echo $mat[2] ?></h3>
+        <?php titulo(4,$definaMateria) ?>
           <ul class="texto">
             <li>Principio do 3° excluído</li>
             <li>Principio da contradição</li>
@@ -72,20 +72,20 @@
             </p>
           <h4 class="sub-titulo">Principio da identidade:</h4>
             <P class="texto">Estabelece cada propriedade/ individuo e indentica a si mesmo.</P>
-        <h3 class="titulo" id="tema-3"><?php echo $mat[3] ?></h3>
+        <?php titulo(5,$definaMateria) ?>
         <p class="texto">
           São proposições simples que exprimem uma única ideia, isto é não
            contem nenhuma outra proposição como parte integrante da mesma.
             As proposições simples são denotadas por letras minúsculas do alfabeto
              latino (p,q,r,s,t)
         </p>
-          
 
-        <h3 class="titulo" id="tema-4"><?php echo $mat[4] ?></h3>
+
+        <?php titulo(6,$definaMateria) ?>
           <p class="texto">
             São proposições que exprimem mais de uma ideia ( no mínimo duas diferentes e são formadas pela combinação de outras proposições simples.
           </p>
-        <h3 class="titulo" id="tema-5"><?php echo $mat[5] ?></h3>
+        <?php titulo(7,$definaMateria) ?>
           <p class="texto">
             As operações realizadas sobre proposição são chamadas de operações
              lógicas está técnica é chamada de cálculo proposicional que é
@@ -311,24 +311,7 @@ Por tanto o valor lógico desta proposição composta será verdadeiro quando V 
               <li>(<-&gt;) bi condicional </li>
             </ul>
 
-
-        <!-- <div class="window">
-          <span><i>HelloWord.java</i><i class="fa fa-close"></i></span>
-          <code>
-            <pre>
-              public class HelloWord{
-                public static void main(String[] args) {
-                  int numero = 1;
-                  int numero1 = 2;
-
-                  System.out.print(numero+numero1);
-                }
-              }
-            </pre>
-          </code>
-        </div> -->
-
-        <h3 class="titulo" id="tema-6"><?php echo $mat[6] ?></h3>
+        <?php titulo(8,$definaMateria) ?>
           <p class="texto">
             O sistema binário (ou de base) é um sistema posicional em que todas quantidades são representadas com base em 2 números: <strong>Zero</strong> (0) e <strong>Um</strong> (1).
           </p>

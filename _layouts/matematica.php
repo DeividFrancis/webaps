@@ -4,8 +4,9 @@ $intro = 'A matemática é essencial em todos os aspectos porém com o início d
 $imagem = 'url("../_imagens/mat-pen.gif")';
 $tutor = 'Medina';
 
-include '../_atoms/info.php';
-$temas = $mat;
+include '../_atoms/titulo-subtitulo.php';
+$definaMateria = $mat;
+
 
 include '../_organism/header.php';
 // ================================================================================

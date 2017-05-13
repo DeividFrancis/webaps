@@ -3,17 +3,7 @@
   <div class="menu-mobile">
     <ul class="temas">
       <li><a href="../_layouts/matematica.php"><?php echo $materia ?></a></li>
-      <li><a href="#tema-0"><?php echo $temas[0] ?></a></li>
-      <li><a href="#tema-1"><?php echo $temas[1] ?></a></li>
-      <li><a href="#tema-2"><?php echo $temas[2] ?></a></li>
-      <li><a href="#tema-3"><?php echo $temas[3] ?></a></li>
-      <li><a href="#tema-4"><?php echo $temas[4] ?></a></li>
-      <li><a href="#tema-5"><?php echo $temas[5] ?></a></li>
-      <li><a href="#tema-6"><?php echo $temas[6] ?></a></li>
-      <li><a href="#tema-7"><?php echo $temas[7] ?></a></li>
-      <li><a href="#tema-8"><?php echo $temas[8] ?></a></li>
-      <li><a href="#tema-9"><?php echo $temas[9] ?></a></li>
-      <li><a href="#tema-10"><?php echo $temas[10] ?></a></li>
+      <?php titulos($definaMateria) ?>
     </ul>
     <ul class="disciplinas">
       <li><a href="../index.php"><i class="fa fa-home"></i>Inicio</a></li>

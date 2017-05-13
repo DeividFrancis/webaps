@@ -1,4 +1,9 @@
 <?php
+
+
+
+
+
 $java = array(
   0 => 'Conceito de Algoritmo',
   1 => 'Introdução à Linguagem Java',
@@ -55,7 +60,7 @@ $html = array(
   10 => '' ,
 );
 
-function temas($n = 4;)
+function temas($materia = '', $temas = 0)
 {
   for ($i=0; $i < $n ; $i++) {
     echo $i;
