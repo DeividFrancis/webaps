@@ -2,18 +2,9 @@
     <li><a href="index.php"><i class="fa fa-bars"></i>Home</a></li>
     <li><a href="../_layouts/java.php"><i class="fa fa-"></i>Linguagem Algoritimica<i class="fa fa-caret-down"></i></a>
       <ul class="sub-menu">
-        <!-- <li><a href="../_layouts/java.php#tema-0"><?php echo $java[0] ?></a></li>
-        <li><a href="../_layouts/java.php#tema-1"><?php echo $java[1] ?></a></li>
-        <li><a href="../_layouts/java.php#tema-2"><?php echo $java[2] ?></a></li>
-        <li><a href="../_layouts/java.php#tema-3"><?php echo $java[3] ?></a></li>
-        <li><a href="../_layouts/java.php#tema-4"><?php echo $java[4] ?></a></li>
-        <li><a href="../_layouts/java.php#tema-5"><?php echo $java[5] ?></a></li>
-        <!-- <li><a href="java.php#tema-6"><?php echo $java[6] ?></a></li>
-        <li><a href="java.php#tema-7"><?php echo $java[7] ?></a></li>
-        <li><a href="java.php#tema-8"><?php echo $java[8] ?></a></li>
-        <li><a href="java.php#tema-9"><?php echo $java[9] ?></a></li>
-        <li><a href="java.php#tema-10"><?php echo $java[10] ?></a></li> --> -->
-        <?php var_dump (array_values($teste)) ?>
+        <script type="text/javascript">
+          temas(materia[1], n);
+        </script>
       </ul>
     </li>
     <li><a href="../_layouts/matematica.php"><i class="fa fa-"></i>Matemática<i id="flip" class="fa fa-caret-down"></i></a>

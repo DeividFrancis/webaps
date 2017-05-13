@@ -4,8 +4,6 @@ $intro = 'Conteudo apresentado à disciplina de introdução a linguagem algorit
 $imagem = 'url("../imagens/tecle.gif")';
 $tutor = 'Natanael';
 
-include '../_atoms/info.php';
-$temas = $java;
 include '../_organism/header.php';
 // ================================================================================
 // TODO O CONTEUDO DEVERA SER ESCRITO AQUI

@@ -55,12 +55,10 @@ $html = array(
   10 => '' ,
 );
 
-$teste = array(
-  '<li><a href="">teste</a></li>',
-  '<li><a href="">teste</a></li>',
-  '<li><a href="">teste</a></li>',
-  '<li><a href="">teste</a></li>',
-  '<li><a href="">teste</a></li>',
-  '<li><a href="">teste</a></li>',
-   );
+function temas($n = 4;)
+{
+  for ($i=0; $i < $n ; $i++) {
+    echo $i;
+  }
+}
  ?>
