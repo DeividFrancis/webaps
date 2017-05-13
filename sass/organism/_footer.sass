@@ -14,7 +14,7 @@
   .flex
   .td-conteudo
     border: none
-    display: flex
+    +flexbox
     justify-content: flex-end
     +breakpoint ($celular)
       flex-direction: column
@@ -28,7 +28,7 @@
     display: flex
     padding: 5px 30px
     font-style: normal
-    font-size: 14px
+    font-size: em(14)
     +breakpoint ($celular)
       flex-direction: column
       text-align: center

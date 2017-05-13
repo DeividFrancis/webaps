@@ -5,11 +5,12 @@
 .toggle, .btnToggle
     display: none
     color: $cinza-claro
-    font-size: 20px
+    font-size: em(20)
     .fa
       padding: 0
     +breakpoint ($celular)
       display: block
+      // font-size: em(60)
 .ativo
   left: 0px !important
   // transition: .3s
@@ -18,10 +19,11 @@
   border-top: 1px solid $cinza-claro
   left: -2380px
   display: none
-  max-width: 300px
+  width: 100%
+  max-width: 70%
   position: absolute
   height: 95vh
-  transition: .4s
+  +transition(.4s)
   // background-color: $cinza-claro
   flex-direction: column
   justify-content: space-between
@@ -34,7 +36,7 @@
     color: $cinza-claro
     padding: 5px
     display: block
-    font-size: 18px
+    font-size: em(18)
     // font-weight: 600
     &:hover,
     &:focus
@@ -42,13 +44,12 @@
   .temas
     margin: 0px 10px
     overflow: auto
-    li
-      a
-        border-bottom: 1px solid #c5c5c5
+    a
+     border-bottom: 1px solid rgba($preto, 0.2)
     li:first-child
       a
         font-weight: bold
-        border-bottom: 1px solid $azul
+        border-bottom: 1px solid rgba($azul, .2)
         margin-bottom: 10px
   .disciplinas
     margin: 15px 10px 40px 10px
@@ -56,4 +57,4 @@
     bottom: 0
     // padding-bottom: 50px
   +breakpoint ($celular)
-    display: flex
+    +flexbox

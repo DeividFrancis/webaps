@@ -11,6 +11,7 @@
   background-color: #eee
 .ligth-a
   color: $preto  !important
+
   &:hover
     color: $azul !important
 
@@ -22,7 +23,7 @@
   +breakpoint($celular)
     padding-top: 0
 .home-menuh
-  display: flex
+  +flexbox
   margin: 40px
   +breakpoint ($celular)
     flex-direction: column
@@ -52,13 +53,13 @@
   border-left: 2px solid #ccc
   width: 250px
   +breakpoint ($celular)
-    font-size: 20px
+    font-size: em(20)
     margin: 20px
   .title
     font-weight: 600
     color: #ccc
     padding-bottom: 10px
-    font-size: 18px
+    font-size: em(18)
   a
     color: #ccc
     text-decoration: none
@@ -73,7 +74,7 @@
 .menuh, .menuv
   .mtop
     list-style-type: none
-    display: flex
+    +flexbox
     min-width: 100%
     justify-content: space-between
   a, label
@@ -83,7 +84,7 @@
     padding: 10px
     color: #ddd
   span
-    display: flex
+    +flexbox
     color: #ddd
     .fa
       margin: auto 0
