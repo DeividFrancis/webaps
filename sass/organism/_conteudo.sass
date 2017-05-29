@@ -60,6 +60,9 @@ fieldset
   padding: 30px 0 15px 0
   font-size: em(22)
   margin: 0 10px
+strong.texto
+  font-weight: bold
+  color: #444 !important
 ul.texto
   list-style-type: decimal
   text-indent: inherit
@@ -85,6 +88,14 @@ ul.texto
     padding: 10px
   &::before
 
+.imagem
+  text-align: center
+  // z-index: -999
+  // margin: 0 auto
+  img
+    // max-width: 500px
+    min-width: 10px
+    // transform: rotate(-90deg)
 
 // TABELAS
 // =========================================================
@@ -127,6 +138,9 @@ ul.texto
     background-color: #555
   tr:nth-child(even)
     background-color: #666
+  th
+    &:last-child
+      min-width: 80px
   th,td
     border: 1px solid #777
     color: $branco

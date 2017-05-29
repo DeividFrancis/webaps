@@ -105,8 +105,11 @@
   .wrap
     +flexbox
 .logosi
-  font-size: em(28)
-  font-weight: 600
+  display: none
+  +breakpoint($celular)
+    display: block
+    font-size: em(20)
+    font-weight: 600
   a
     color: $branco
     +breakpoint($celular)

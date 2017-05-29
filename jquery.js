@@ -9,6 +9,7 @@ $(function(){
       $(".flex, .mtop").addClass('ligth');
       $(".sub-menu a, .sub-menu, .menu-mobile").addClass('ligthB');
       $(".sub-menu a, .menu-mobile a ").addClass('ligth-a');
+      $(".menu-mobile").css('box-shadow', '-1px 7px 7px #000');
 
 
     } else {
@@ -17,6 +18,7 @@ $(function(){
       $(".flex, .mtop").removeClass('ligth');
       $(".sub-menu a, .menu-mobile a").removeClass('ligth-a');
 
+      $(".menu-mobile").css('box-shadow', 'none');
 
     }
   });
@@ -52,7 +54,7 @@ $(document).ready(function() {
     // }, 200);
     $('.menu-mobile').animate({
       width: 'toggle'
-    }, 200);
+    }, 150);
   });
   $('.box').click(function() {
     $('.menu-mobile').animate({width: 'hide'}, 100)

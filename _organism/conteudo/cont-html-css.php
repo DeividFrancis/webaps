@@ -121,6 +121,159 @@
             <li>Utilizar de forma inteligente recursos mobile como geolocalização e mudança na orientação do aparelho (horizontal ou vertical).</li>
           </ul>
         <?php titulo(6,$definaMateria) ?>
+         <ul class="texto">
+              <li>CSS é uma linguagem que descreve o estilo de um documento HTML.</li>
+              <li>O CSS descreve como os elementos HTML devem ser exibidos.</li>
+
+         </ul>
+         <p class="texto">
+           CSS (Cascading Style Sheet - Folha de Estilo em Cascata) é usado para estilizar e criar layout web - Por exemplo para alterar fonte, cor, tamanho e espaçamento do conteúdo, dividir o conteudo em múltiplas colunas, ou adicionar animações e outros componentes decorativos. Este módulo te coloca no caminho da maestrias em CSS com o basico de como ele funciona, incluindo seletores, propriedades, escrita dentro dos padrões CSS, aplicação de CSS para HTML, como especificar tamanho, cor, e outras propriedades CSS, cascata e herança, e  debugar CSS.
+         </p>
+         <h4 class="sub-titulo">Aplicando CSS a um documento HTML</h4>
+           <p class="texto">
+              Você pode aplicar CSS a um documento de três maneiras distintas. Os três métodos de aplicação estão exemplificados a seguir. Recomendamos que você foque no terceiro método, ou seja o método externo.
+           </p>
+           <strong class="texto">Método 1: In-line (o atributo style)</strong><br>
+           <p class="texto">
+             Uma maneira de aplicar CSS é pelo uso do atributo style do HTML. Tomando como base o exemplo mostrado anteriormente a cor vermelha para o fundo da página pode ser aplicada conforme mostrado a seguir:
+           </p>
+           <div class="window">
+             <span><i>In-line.html</i><i class="fa fa-close"></i></span>
+             <code>
+               <pre>
+                 &lt;html&gt;
+                 &lt;head&gt;
+                   &lt;title&gt;Exemplo&lt;/title&gt;
+                 &lt;/head&gt;
+                 &lt;body style="background-color: #FF0000;"&gt;
+
+                   &lt;p&gt;Esta é uma página com fundo vermelho&lt;/p&gt;
+                 &lt;/body&gt;
+                 &lt;/html&gt;
+               </pre>
+             </code>
+           </div>
+
+           <strong class="texto">Método 2: Interno (a tag style)</strong>
+           <p class="texto">
+             Uma outra maneira de aplicar CSS e pelo uso da tag &gt;style&lt; do HTML. Como mostrado a seguir:
+           </p>
+           <div class="window">
+             <span><i>Interno.html</i><i class="fa fa-close"></i></span>
+
+             <code>
+               <pre>
+                 &lt;html&gt;
+                   &lt;head&gt;
+                     &lt;title&gt;Exemplo&lt;/title&gt;
+                     &lt;style type="text/css"&gt;
+
+                     body {background-color: #FF0000;}
+                     &lt;/style&gt;
+                   &lt;/head&gt;
+                   &lt;body&gt;
+                     &lt;p&gt;Esta é uma página com fundo vermelho&lt;/p&gt;
+
+                   &lt;/body&gt;
+                 &lt;/html>
+               </pre>
+             </code>
+           </div>
+
+
+           <strong class="texto">Método 3: Externo (link para uma folha de estilos)</strong>
+           <p class="texto">
+             O método recomendado é o de lincar para uma folha de estilos externa. Usaremos este método nos exemplos deste tutorial.
+
+Uma folha de estilos externa é um simples arquivo de texto com a extensão .css. Tal como com qualquer outro tipo de arquivo você pode colocar uma folha de estilos tanto no servidor como no disco rígido.
+           </p>
+           <p class="texto">
+             O "truque" é criar um link no documento HTML (default.htm) para a folha de estilos (style.css). O link é criado em uma simples linha de código HTML como mostrado a seguir:
+           </p>
+           <code><pre class="line">&lt;link rel="stylesheet" type="text/css" href="style/style.css" /&gt;</pre></code>
+
+           <p class="texto">
+             Notar que o caminho para a folha de estilos é indicado no atributo href.
+
+Esta linha de código deve ser inserida na seção header do documento HTML, isto é, entre as tags &lt;head&gt; e &lt;/head&gt;. Conforme mostrado abaixo:
+           </p>
+           <div class="window">
+             <code>
+               <span><i>Externo.html</i><i class="fa fa-close"></i></span>
+
+               <pre>
+                 <html>
+                   &lt;head&gt;
+                     &lt;title&gt;Meu documento&lt;/title&gt;
+                     &lt;link rel="stylesheet" type="text/css" href="style/style.css" /&gt;
+
+                   &lt;/head&gt;
+                 &lt;body&gt;
+                   ...
+               </pre>
+             </code>
+           </div>
+
+           <p class="texto">
+             Esta técnica pode economizar uma grande quantidade de trabalho. Se por exemplo, você quiser trocar a cor do fundo de um site com 100 páginas, a folha de estilos evita que você edite manualmente uma a uma as páginas para fazer a mudança nos 100 documentos HTML. Usando CSS a mudança se fará em uns poucos segundos trocando-se a cor em uma folha de estilos central.
+           </p>
         <?php titulo(7,$definaMateria) ?>
+
+        <p class="texto">
+          As cores no CSS podem ser especificadas pelos seguintes métodos:
+        </p>
+        <ul class="texto" style="list-style-type: circle">
+          <li>Cores hexadecimais</li>
+          <li>Cores RGB</li>
+          <li>Cores RGBA</li>
+          <li>HSL cors</li>
+          <li>HSLA cores</li>
+          <li>Nomes de cores predefinidos / cruzados no navegador</li>
+          <h6>https://www.w3schools.com/cssref/css_colors_legal.asp</h6>
+        </ul>
+
+        <h4 class="sub-titulo">Cores hexadecimais</h4 >
+          <p class="texto">
+            Valores de cor hexadecimais são suportados em todos os principais navegadores.
+            <br><br>
+            Uma cor hexadecimal é especificada com: #RRGGBB, onde os números inteiros hexadecimais RR (vermelho), GG (verde) e BB (azul) especificam os componentes da cor. Todos os valores devem estar entre 00 e FF.
+          </p>
+        <h4 class="sub-titulo">Cores RGB</h4 >
+          <p class="texto">
+            Os valores de cores RGB são suportados em todos os principais navegadores.
+            <br><br>
+            Um valor de cor RGB é especificado com: rgb (vermelho, verde, azul). Cada parâmetro (vermelho, verde e azul) define a intensidade da cor e pode ser um número inteiro entre 0 e 255 ou um valor percentual (de 0% a 100%).
+            <br><br>
+            Por exemplo, o valor rgb (0,0,255) é renderizado como azul, porque o parâmetro azul é definido como seu valor mais alto (255) e os outros são definidos como 0.
+            <br><br>
+            Além disso, os seguintes valores definem cores iguais: rgb (0,0,255) e rgb (0%, 0%, 100%).
+          </p>
+        <h4 class="sub-titulo">Cores RGBA</h4 >
+          <p class="texto">
+            Os valores de cores RGBA são suportados no IE9 +, Firefox 3+, Chrome, Safari e no Opera 10+.
+            <br><br>
+            Os valores de cor RGBA são uma extensão de valores de cores RGB com um canal alfa - que especifica a opacidade do objeto.
+            <br><br>
+            Um valor de cor RGBA é especificado com: rgba (vermelho, verde, azul, alfa). O parâmetro alfa é um número entre 0,0 (totalmente transparente) e 1,0 (totalmente opaco).
+          </p>
+        <h4 class="sub-titulo">HSL cors</h4 >
+          <p class="texto">
+            Valores de cores HSL são suportados no IE9 +, Firefox, Chrome, Safari e no Opera 10+.
+            <br><br>
+            HSL significa matiz, saturação e leveza - e representa uma representação coordenada cilíndrica de cores.
+            <br><br>
+            Um valor de cor HSL é especificado com: hsl (tonalidade, saturação, luminosidade).
+            <br><br>
+            Matiz é um grau na roda de cores (de 0 a 360) - 0 (ou 360) é vermelho, 120 é verde, 240 é azul. A saturação é um valor percentual; 0% significa um tom de cinza e 100% é a cor completa. A leveza é também uma porcentagem; 0% é preto, 100% é branco.
+          </p>
+        <h4 class="sub-titulo">HSLA cores</h4 >
+          <p class="texto">
+            Os valores de cores HSLA são suportados no IE9 +, Firefox 3+, Chrome, Safari e no Opera 10+.
+            <br><br>
+            Os valores de cor HSLA são uma extensão de valores de cor HSL com um canal alfa - que especifica a opacidade do objeto.
+            <br><br>
+            Um valor de cor HSLA é especificado com: hsla (matiz, saturação, luminosidade, alfa), onde o parâmetro alfa define a opacidade. O parâmetro alfa é um número entre 0,0 (totalmente transparente) e 1,0 (totalmente opaco).
+          </p>
+        <?php titulo(8,$definaMateria) ?>
     </section>
 </aside>

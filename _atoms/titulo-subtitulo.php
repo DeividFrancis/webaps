@@ -28,6 +28,7 @@ $java = array(
   'Operações lógicas sobre as proposições' ,
   'Binários' ,
   'Lógica Booleana',
+  'Matrizes',
   );
 
 $turma = array(
@@ -37,16 +38,18 @@ $turma = array(
   'A Influência de Ger. de Projetos' ,
   'O que é PMBOK' ,
   'PMI' ,
+  'CMMI'
  );
 $html = array(
   'html-css',
   'Introdução a Hipertexto',
   'A Linguagem HTML',
+  'Base HTML',
   'Ferramenta de edição HTML' ,
   'Conceitos básicos de Web-Designer' ,
   'introção ao CSS' ,
   'Cores e unidades' ,
-  'Propriedades CSS' ,
+  // 'Propriedades CSS' ,
   'JavaScript Básico'
 );
 

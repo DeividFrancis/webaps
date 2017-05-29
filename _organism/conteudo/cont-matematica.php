@@ -318,7 +318,7 @@ Por tanto o valor lógico desta proposição composta será verdadeiro quando V 
               <li>(<-&gt;) bi condicional </li>
             </ul>
 
-        <?php titulo(8,$definaMateria) ?>
+        <?php titulo(7,$definaMateria) ?>
           <p class="texto">
             O sistema binário (ou de base) é um sistema posicional em que todas quantidades são representadas com base em 2 números: <strong>Zero</strong> (0) e <strong>Um</strong> (1).
           </p>
@@ -347,5 +347,264 @@ Por tanto o valor lógico desta proposição composta será verdadeiro quando V 
               <li>1.2²+0.2¹+1.2º</li>
               <li>4 + 0 + 1 = (5)¹º</li>
             </ul>
+          <?php titulo(8,$definaMateria) ?>
+            <h4 class="sub-titulo">Noções de Lógica Booleana</h4>
+              <p class="texto">
+                A lógica booleana é uma derivada da lógica matemática assim como o álgebra booleana é derivada do álgebra básica
+              </p>
+              <p class="texto">
+                A lógica booleana difere em 3 aspectos básicos:
+              </p>
+              <ul class="texto">
+                <li>Nos valores que as variáveis podem assumir (0 = falso) (1=verdadeiro)</li>
+                <li>Na aplicação desses valores </li>
+                <li>Nas propriedades demais operação, está é, nas leis que elas obedecem.</li>
+              </ul>
+              <table class="tinfo">
+                <thead>
+                  <tr>
+                    <th>Álgebra variantes são números reais</th>
+                  <!-- </tr>
+                  <tr> -->
+                    <th>Álgebra Booleana variáveis assumem <strong>0</strong> ou <strong>1</strong> </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Os operadores são aplicados = REAIS</td>
+                  <!-- </tr>
+                  <tr> -->
+                    <td>Operadores retornam apena 0 ou 1</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <h4 class="sub-titulo">Por ex:</h4>
+                <ul class="texto" style="list-style-type: none">
+                  <li><strong>X =  Estudante</strong></li>
+                  <li><strong>y = Cursa Sistema de informação</strong></li>
+                  <li>*(1 - x) = </li>
+                  <li>* (x * y ) = </li>
+                  <li>* (1 - x)  (1 - y)= </li>
+                  <li>* (x + y) = </li>
+                  <br>
+                  <li>(1 - x ) = Representa tudo que não são estudantes num determinado conjunto; </li>
+                  <li>(x * y)  = Ser estudante e cursar Sistemas de informação;</li>
+                  <li>(1 - x) * (1 - y) = Representa todos que não são estudantes e não cursão Sistemas de informação em um determinado conjunto;</li>
+                  <li>(x + y) = Todos os estudantes cursam Sistemas de informação num determinado conjunto;</li>
+                </ul>
+
+                <h4 class="sub-titulo">
+                  Portas Lógicas
+                </h4>
+
+                <p class="texto">
+                  Uma porta é um elemento do hardware que recebe um ou maior sinais de saída, cujo o valor da lógica está estabelecida para sua construção.
+                </p>
+
+                <p class="texto"><strong>Observe a tabela abaixo contendo um infografico com o tipo e seu respectivo simbulo;</strong></p>
+          <div class="imagem">
+            <img src="../_imagens/booleano.jpg" alt="tabela de estrutura">
+          </div>
+
+          <p class="texto">
+            <strong>Porta And</strong> (E): Porta And é definida como sendo o elemento que produz um resultdo verdadeiro (1), se é somente se, todas as entradas forem verdade.
+          </p>
+          <table class="tabelas">
+            <thead>
+              <tr>
+                <th>Enstrada A</th>
+                <th>Enstrada B</th>
+                <th>Saída <br>X = A * B</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p class="texto">
+            <strong>Porta or (ou)</strong> : A porta OR é definida para produzir um resultado verdadeiro (1) se pelo menos umas das entradas forem verdadeiras (1), consute a tabela acima para ver seu simbulo gráfico;
+          </p>
+
+          <table class="tabelas">
+            <thead>
+              <tr>
+                <th>Enstrada A</th>
+                <th>Enstrada B</th>
+                <th>Saída <br>X = A + B</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <td>0</td>
+                <td>1</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p class="texto">
+            <strong>Porta NOT (Inversores, NÃO)</strong> A porta lógica not também chamada de inversor complemento inverte o sinal binário colocado em sua entrada o símbolo está no gráfico e a tabela verdade segue a baixo.
+          </p>
+          <table class="tabelas" style="th:last-child{min-width: inherit}">
+            <thead>
+              <tr>
+                <th>A</th>
+                <th style="min-width: inherit">~A</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>0</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>0</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p class="texto">
+            <strong>Porta NAND (NOT AND)</strong> A porta lógica NAND é definida como o complemento da porta AND, isto é a saída de um circuito lógico nand equivale a sáida de um circuito and passando por uma porta not, consute o infografico para ver seu simbulo;
+          </p>
+          <table class="tabelas">
+            <thead>
+              <tr>
+                <th>Enstrada A</th>
+                <th>Enstrada B</th>
+                <th>Saída <br>X = A * B</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>0</td>
+                <td>1</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p class="texto">
+            <strong>Porta NOR (NOTOR)</strong> Assim como no NAND a porta lógica NOR é complemento e a inversão da porta lógica OR. A saída de um circulo lógico NOR é obtido ao efetuar a operação lógica da OR sobre as entradas invertídas resultando símbolo natual;
+          </p>
+
+          <table class="tabelas">
+            <thead>
+              <tr>
+                <th>Enstrada A</th>
+                <th>Enstrada B</th>
+                <th>Saída <br>X = A + B</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p class="texto">
+            <strong>Porta XOR (ENCLUSIVE OR)</strong> A operação lógica XOR pode ser considerada um caso particular de função OR, ou seja a saída será, se somente se, apenas uma das entradas for verdadeiras não podemos ambas serem verdadeiras símbolo no material.
+          </p>
+
+          <table class="tabelas">
+            <thead>
+              <tr>
+                <th>Enstrada A</th>
+                <th>Enstrada B</th>
+                <th>Saída <br>X = A + B</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <td>0</td>
+                <td>1</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+              </tr>
+            </tbody>
+          </table>
     </section>
 </aside>

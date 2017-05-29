@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#31b1e7">
   <title>APS</title>
   <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" > <!-- FONT- AWESOME -->
   <link href="../css/css-geral.css" rel="stylesheet" type="text/css"/>
@@ -24,7 +25,8 @@
         <?php include ('../_moleculas/menu-mobile.php'); ?>
         <!-- ====================================================== -->
         <aside class="logosi" style="color: #ddd">
-          <a href="../index.php">&lt;/Sistemas&gt;</a>
+          <!-- <a href="../index.php">&lt;/Sistemas&gt;</a> -->
+          <a href="../index.php"><?php echo $materia; ?></a>
         </aside>
         <!-- =============================================== -->
         <!-- MENU normal -->
