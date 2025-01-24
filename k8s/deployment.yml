@@ -1,0 +1,54 @@
+# Deployment e o vulgo replicaset
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: webaps
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: webaps
+  template:
+    # Aqui e tipo config do POD
+    metadata:
+      labels:
+        app: webaps
+    spec:
+      containers:
+        - name: webaps
+          image: deividoliver/webaps:latest
+          ports:
+            - containerPort: 80
+          resources:
+            limits:
+              cpu: "100m"
+              memory: "128Mi"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: webaps
+spec:
+  selector:
+    app: webaps
+  ports:
+    - port: 80
+      targetPort: 80
+# ---
+# apiVersion: networking.k8s.io/v1
+# kind: Ingress
+# metadata:
+#   name: webaps
+#   annotations:
+#     ingress.kubernetes.io/ssl-redirect: "false"
+# spec:
+#   rules:
+#     - http:
+#         paths:
+#           - path: /
+#             pathType: Prefix
+#             backend:
+#               service:
+#                 name: webaps
+#                 port:
+#                   number: 80
