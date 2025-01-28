@@ -43,12 +43,9 @@ metadata:
     ingress.kubernetes.io/ssl-redirect: "false"
 spec:
   rules:
-    - http:
-        paths:
-          - path: /
-            pathType: Prefix
-            backend:
-              service:
-                name: webaps
-                port:
-                  number: 80
+    - host: webaps.pantufasuja.com.br
+      backend:
+        service:
+          name: webaps
+          port:
+            number: 80
