@@ -38,7 +38,7 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: webaps
+  name: webaps-ingress
   annotations:
     ingress.kubernetes.io/ssl-redirect: "false"
 spec:
