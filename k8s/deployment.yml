@@ -44,8 +44,12 @@ metadata:
 spec:
   rules:
     - host: webaps.pantufasuja.com.br
-      backend:
-        service:
-          name: webaps
-          port:
-            number: 80
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: webaps
+                port:
+                  number: 80
